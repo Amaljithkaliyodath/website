@@ -1,0 +1,62 @@
+.first a:hover{
+  
+    color: rgb(200, 11, 11);
+   
+}
+ .first{
+     margin-left: 70%;
+ }
+ .one{
+    width: 100%;
+ }
+
+  .second{
+    color:chartreuse ;
+    
+  }
+  .six:hover{
+     color: chartreuse;
+     
+  }
+  .five{
+    background-color:hsl(240, 100%, 5%);
+    color:white;
+   
+  }
+  .p{
+    color: white;
+  }
+  .two{
+    color:hsl(236, 13%, 42%);
+  }
+  .four{
+    width: 100%;
+  }
+  .qwert{
+    font-size: 60px;
+  }
+  .zxcv{
+    color: gray;
+  }
+  .asdf{
+    width: 100% ; height: 50%;
+  }
+ .zero {
+    color:white;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+    line-height: 1;
+    background-color : hsl(5, 85%, 63%);
+    padding: 20px;
+    border-radius: 5px;
+}
+ .zero:hover {
+    color: white;
+    background-color: hsl(240, 100%, 5%);
+}
+article{
+  border-bottom: 1px solid rgb(112,66,65);
+}

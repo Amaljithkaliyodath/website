@@ -1,0 +1,44 @@
+
+.first{
+    background-image: url(img/image-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.second{
+    margin-left: 80%;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+   
+}
+
+
+.logo{
+    color: white;
+     font-size: medium;
+  
+}
+.zero{
+    color:black;
+    
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    line-height: 1;
+    background-color : white;
+    padding: 20px;
+    border-radius: 20px;
+}
+ .zero:hover {
+    color: black;
+    background-color: hsl(240, 53%, 63%);
+}
+.one{
+    display: block;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 19%;
+  width: 100%;
+}
