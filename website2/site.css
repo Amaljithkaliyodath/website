@@ -7,7 +7,7 @@
     width: 100%;
 }
 .second{
-    margin-left: 80%;
+    margin-left: 70%;
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -39,6 +39,34 @@
     display: block;
   margin-left: 50%;
   margin-right: 50%;
-  margin-top: 19%;
+  margin-top: -1%;
   width: 100%;
+}
+.two{
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 500px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    padding-bottom: 10vh;
+    text-align: center;
+   margin-top: 14%;
+}
+.btn-underline{
+    font-family: 'Fraunces', serif;
+    color: #23303B;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 16px;
+    position: relative;
+}
+.seven{
+    font-size: 46px;
+    color: #23303B;
+    margin-bottom: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
 }
