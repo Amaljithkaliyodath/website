@@ -1,28 +1,30 @@
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .first{
     background-image: url(img/image-header.jpg);
     background-position: center;
     background-size: cover;
     height: 90vh;
-    width: 100%;
+
 }
 .second{
-    margin-left: 70%;
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
     font-weight: 600;
+  
    
 }
 
 
-.logo{
+.logo h3{
     color: white;
-     font-size: medium;
+     font-size: 25px;
   
 }
 .zero{
     color:black;
-    
     text-transform: uppercase;
     text-align: center;
     font-family: 'Fraunces', serif;
@@ -31,42 +33,49 @@
     padding: 20px;
     border-radius: 20px;
 }
+
  .zero:hover {
     color: black;
     background-color: hsl(240, 53%, 63%);
 }
-.one{
-    display: block;
-  margin-left: 50%;
-  margin-right: 50%;
-  margin-top: -1%;
-  width: 100%;
-}
-.two{
+
+   
+.two h1{
     color: white;
     font-family: 'Fraunces', serif;
     font-weight: 900;
-    font-size: 500px;
+    font-size: 65px;
     text-transform: uppercase;
     letter-spacing: 6px;
     padding-bottom: 10vh;
     text-align: center;
    margin-top: 14%;
 }
-.btn-underline{
-    font-family: 'Fraunces', serif;
-    color: #23303B;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 700;
-    font-size: 16px;
-    position: relative;
+
+.section img{ 
+    width: 100%;
+    height: 100%;
+  
 }
-.seven{
-    font-size: 46px;
-    color: #23303B;
-    margin-bottom: 30px;
-    font-family: 'Fraunces', serif;
-    font-weight: 900;
+
+.section1 img{ 
+    width: 100%;
+    height: 100%;
+
+}
+
+.section4 img{ 
+    width: 100%;
+    height: 100%;
+
+}
+
+.section5 img{ 
+    width: 100%;
+    height: 100%;
+    
+}
+.section6 { 
+    margin-left: 77%;
+    
 }
