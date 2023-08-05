@@ -13,6 +13,8 @@ html, body {
     font-family: 'Barlow', sans-serif;
     font-size: 18px;
     font-weight: 600;
+    
+   
   
    
 }
@@ -33,7 +35,7 @@ html, body {
     line-height: 1;
     background-color : white;
     border-radius: 20px;
-    padding: 14px 22px;
+    padding: 13px 20px;
     font-size: 12px;
 }
 
@@ -138,49 +140,6 @@ margin-top: 50%;
     text-align: center;
     margin-top: 5%;
 }
-.Emily  img{
- border-radius: 50%;
- width: 100px;
- display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-.Emily p{
-    text-align: center;
-}
-.Emily h6{
-    text-align: center;
-}
-
-.Thomas img{
-    border-radius: 50%;
-    width: 100px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-   }
-   .Thomas p{
-    text-align: center;
-}
-.Thomas h6{
-    text-align: center;
-}
-
-
-
-   .Jennie  img{
-    border-radius: 80%;
-    width: 100px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-   }
-   .Jennie p{
-    text-align: center;
-}
-.Jennie h6{
-    text-align: center;
-}
 
  .boat img{
     width: 100%;
@@ -191,3 +150,22 @@ margin-top: 50%;
     background-color: #90D4C5;;
 }
 
+.card{
+    border: none !important;
+}
+
+.men a:hover {
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+   
+}
+.men a{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #86858B;
+  
+}
+ 
