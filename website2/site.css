@@ -19,19 +19,22 @@ html, body {
 
 
 .logo h3{
-    color: white;
-     font-size: 25px;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: rgb(255, 251, 251);
+     margin-left: 50px;
+     font-weight: 900;
   
 }
 .zero{
     color:black;
-    text-transform: uppercase;
     text-align: center;
     font-family: 'Fraunces', serif;
     line-height: 1;
     background-color : white;
-    padding: 20px;
     border-radius: 20px;
+    padding: 14px 22px;
+    font-size: 12px;
 }
 
  .zero:hover {
@@ -43,13 +46,13 @@ html, body {
 .two h1{
     color: white;
     font-family: 'Fraunces', serif;
-    font-weight: 900;
+    font-weight: 1000;
     font-size: 65px;
     text-transform: uppercase;
     letter-spacing: 6px;
     padding-bottom: 10vh;
     text-align: center;
-   margin-top: 14%;
+   margin-top: 12%;
 }
 
 .section img{ 
@@ -76,6 +79,115 @@ html, body {
     
 }
 .section6 { 
-    margin-left: 77%;
+    margin-left: 60%;
     
 }
+
+.eight h1{
+    font-size: 46px;
+    color: #23303B;
+    margin-bottom: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    
+    
+}
+.eight p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #86858B;
+    margin-bottom: 25px;
+}
+.box{
+margin-top: 50%;
+
+
+}
+
+.nospace>[class*='col-']
+{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.section2 h1{
+    font-size: 46px;
+    color: #23303B;
+    margin-bottom: 30px;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+ 
+.section2 p{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #86858B;
+    margin-bottom: 25px; 
+}
+
+.client{
+    color: #A4A7A9;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+    margin-bottom: 8vh;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 5%;
+}
+.Emily  img{
+ border-radius: 50%;
+ width: 100px;
+ display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Emily p{
+    text-align: center;
+}
+.Emily h6{
+    text-align: center;
+}
+
+.Thomas img{
+    border-radius: 50%;
+    width: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+   }
+   .Thomas p{
+    text-align: center;
+}
+.Thomas h6{
+    text-align: center;
+}
+
+
+
+   .Jennie  img{
+    border-radius: 80%;
+    width: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+   }
+   .Jennie p{
+    text-align: center;
+}
+.Jennie h6{
+    text-align: center;
+}
+
+ .boat img{
+    width: 100%;
+    margin-top: 100px;
+ }
+
+.men{
+    background-color: #90D4C5;;
+}
+
