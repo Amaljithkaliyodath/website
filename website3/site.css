@@ -1,0 +1,53 @@
+.zero {
+    color:white;
+    border: #0ABCEB;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+    line-height: 1;
+    background-color: #0ABCEB;
+    /* padding: 20px; */
+    border-radius: 5px;
+    float: right;
+    width: 195px;
+    height: 51px;
+   
+}
+ .zero:hover {
+    color: white;
+    background-color:#337ab7;
+    border-radius: 10px;
+ }
+ .first a{
+    color: white;
+ }
+ .first a:hover{
+    color:rgb(36, 255, 58);
+    
+ }
+
+  
+
+
+.second{
+    height: 80vh;
+    background: -webkit-linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99)); 
+    background: linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99));
+    background: -webkit-radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+}
+  
+   .six img{
+   vertical-align: 40%;
+   border-radius: 10%;
+   border-color: white;
+     
+    }
+
+  
+   
+  
+   
