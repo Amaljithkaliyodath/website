@@ -9,7 +9,6 @@
     outline: none;
     line-height: 1;
     background-color: #0ABCEB;
-    /* padding: 20px; */
     border-radius: 5px;
     float: right;
     width: 195px;
@@ -19,7 +18,7 @@
  .zero:hover {
     color: white;
     background-color:#337ab7;
-    border-radius: 10px;
+    border-radius: 15px;
  }
  .first a{
     color: white;
@@ -40,14 +39,80 @@
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
 }
   
-   .six img{
-   vertical-align: 40%;
-   border-radius: 10%;
-   border-color: white;
-     
-    }
+  
 
-  
+  .nova{
+   color: white;
+   font-family: inherit;
+   font-weight: 700;
+   font-size: 39px;
+  }
    
+  .free{
+   font-size: 18px;
+   font-weight: 400;
+   font-family: inherit;
+   color: white;
+  }
+  .zed {
+   color:white;
+   border: #25F18B;
+   font-family: inherit;
+   font-size: inherit;
+   line-height: inherit;
+   text-transform: uppercase; 
+   line-height: 1;
+   background-color: #25F18B;
+   border-radius: 5px;
+   width: 195px;
+   height: 51px;
   
-   
+}
+.zed:hover {
+   color: white;
+   background-color:#5ef0a7;
+   border-radius: 15px;
+} 
+.tem{
+   padding-top: 8%;
+}
+.six img{
+
+       margin:80px 6px; 
+
+    
+      transform: rotate(340deg);
+      border-radius: 9%;
+      border: solid 15px white;
+      width: 95%;
+        
+     }
+.mouse img{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* #second{
+   height: 200px;
+   color: cornsilk;
+   background-color: darksalmon;
+}
+#demo{
+   height: 200px;
+   color: darkgreen;
+ background-color: burlywood;
+}
+</style>
+</head>
+<body>
+   <div id="second"><h1>welcome</h1>
+   <a href="#demo">click</a>
+</div>
+<div id="demo">
+   <p>goodbye</p>
+   <a href="#second">click</a>
+   </div>
+   <a href="https://preview.colorlib.com/#depot">click</a>
+</body> */
