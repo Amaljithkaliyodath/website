@@ -1,4 +1,10 @@
-.zero {
+html, body {
+   max-width: 100%;
+   overflow-x: hidden;
+}
+ 
+ 
+ .zero {
     color:white;
     border: #0ABCEB;
     font-family: inherit;
@@ -78,13 +84,11 @@
 }
 .six img{
 
-       margin:80px 6px; 
-
-    
+       margin:81px 6px; 
       transform: rotate(340deg);
       border-radius: 9%;
       border: solid 15px white;
-      width: 95%;
+      width: 100%;
         
      }
 .mouse img{
@@ -93,26 +97,75 @@
   margin-right: auto;
 }
 
+.card{
+   
+   border:none  !important;
+}
 
-/* #second{
-   height: 200px;
-   color: cornsilk;
-   background-color: darksalmon;
+.user-content p{
+   margin-top:5px;
+   font-size:18px;
+   color: black;
 }
-#demo{
-   height: 200px;
-   color: darkgreen;
- background-color: burlywood;
+
+.user-content h5{
+   margin-top:5px;
+   font-size:18px;
+   color: black;
 }
-</style>
-</head>
-<body>
-   <div id="second"><h1>welcome</h1>
-   <a href="#demo">click</a>
-</div>
-<div id="demo">
-   <p>goodbye</p>
-   <a href="#second">click</a>
-   </div>
-   <a href="https://preview.colorlib.com/#depot">click</a>
-</body> */
+.open{
+   color:white;
+}
+.close {
+   background-color: black;
+}
+.user-image{background-color: white;
+   border-radius: 50%;
+   height: 5.625em;
+   width: 5.625em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   box-shadow: 4px 14px 28px #393939;
+}
+.logo img{
+   background-color: #F9FAFA;
+}
+
+.imac img{
+
+    height: 65vh;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.and{
+   font-size: 40px;
+   font-weight: 300;
+   margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+.web{
+   font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 400px;
+    margin: inherit;
+    text-align: left;
+}
+.your {
+   font-size: 40px;
+   font-weight: 300;
+   margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+}
+.any {
+   font-weight: 300;
+    font-size: 20px;
+  
+}
+.of{
+   background-color: #337ab7;
+}
