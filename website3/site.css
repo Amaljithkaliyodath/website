@@ -119,7 +119,8 @@ html, body {
 .close {
    background-color: black;
 }
-.user-image{background-color: white;
+.user-image{
+  background-color: rgb(240, 240, 240);
    border-radius: 50%;
    height: 5.625em;
    width: 5.625em;
@@ -128,6 +129,9 @@ html, body {
    align-items: center;
    margin: auto;
    box-shadow: 4px 14px 28px #393939;
+}
+.card-test{
+   background-color: black;
 }
 .logo img{
    background-color: #F9FAFA;
@@ -169,8 +173,72 @@ html, body {
 
 
 .per{
-   background-color:  #337ab7;
+   background-color: whitesmoke;
+   padding-bottom: 10%;
 }
-. btn-primary{
+
+.add{
+ 
+    
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      text-transform: uppercase;
+      line-height: 1;
+      background-color: #03b7e8;
+      border-radius: 5px;
+      width: 195px;
+      height: 51px;
+     
+  }
+   .add:hover {
+      color: white;
+      background-color: #72b8f5;;
+      border-radius: 15px;
+      box-shadow: 4px 14px 28px #393939;
+}
+.card { 
+   border:none  !important;
+}
+
+.bad{
+   padding-bottom: 10%;
+}
+
+ .img{
+   width: 100%;
+}
+
+.down{
+   background-color: #03b7e8;
+   padding-top: 3%;
    
+}
+.form{
+   padding-right: 60%;
+ height: 50%;
+  
+}
+
+.by{
+   margin-left: 40%;
+   margin-right: -3%;
+   color: white;
+}
+.web img{
+margin-right: 50%;
+margin-left: -20%;
+width: 40%;
+}
+
+.temp{
+   background-color: #393939;
+   padding-bottom: 2%
+}
+
+.ride {
+   color: white;
+}
+.the{
+   font-weight: 200;
 }
