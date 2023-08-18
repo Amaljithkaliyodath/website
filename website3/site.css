@@ -34,8 +34,6 @@ html, body {
     
  }
 
-  
-
 
 .second{
     height: 80vh;
@@ -43,6 +41,7 @@ html, body {
     background: linear-gradient(117deg, rgb(96, 87, 246), rgb(216, 71, 99));
     background: -webkit-radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
     background: radial-gradient(rgb(194, 74, 126), rgb(105, 86, 235));
+    
 }
   
   
@@ -84,8 +83,8 @@ html, body {
 }
 .six img{
 
-       margin:81px 6px; 
-      transform: rotate(340deg);
+       margin:71px 6px; 
+      transform: rotate(354deg);
       border-radius: 9%;
       border: solid 15px white;
       width: 100%;
@@ -96,22 +95,25 @@ html, body {
   margin-left: auto;
   margin-right: auto;
 }
+.mouse:hover {
+   transform: translateY(5px);
+}
 
 .card{
    
    border:none  !important;
 }
 
-.user-content p{
+.lap p{
    margin-top:5px;
    font-size:18px;
-   color: black;
+   color:white;
 }
 
-.user-content h5{
+.lap h5{
    margin-top:5px;
    font-size:18px;
-   color: black;
+   color: white;
 }
 .open{
    color:white;
@@ -175,6 +177,7 @@ html, body {
 .per{
    background-color: whitesmoke;
    padding-bottom: 10%;
+   color: black;
 }
 
 .add{
@@ -197,7 +200,7 @@ html, body {
       border-radius: 15px;
       box-shadow: 4px 14px 28px #393939;
 }
-.card { 
+.carder { 
    border:none  !important;
 }
 
@@ -233,7 +236,7 @@ width: 40%;
 
 .temp{
    background-color: #393939;
-   padding-bottom: 2%
+   padding-bottom: 1%
 }
 
 .ride {
@@ -241,4 +244,19 @@ width: 40%;
 }
 .the{
    font-weight: 200;
+}
+.form{
+ margin-right: -40%;
+ margin-left:40% ;
+}
+
+.load{
+   margin-left: 100%;
+   margin-bottom: 100%;
+}
+.title{
+   box-shadow: 4px 14px 28px #393939;
+}
+.cardti {
+   border:none  !important;
 }
