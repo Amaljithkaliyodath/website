@@ -1,0 +1,109 @@
+.yellow {
+    background-image: url(img/malte-wingen-381988-1920x1280.jpg) ;
+    width: 100%;
+    padding-bottom: 30%;
+
+ 
+   
+}
+ .one {
+    color:black;
+    border: white;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+    line-height: 1;
+    background-color:white;
+    border-radius: 5px;
+    width: 170px;
+    height: 49px;
+   
+}
+ .one:hover {
+    color: black;
+    background-color:whitesmoke;
+    border-radius: 15px;
+ } 
+ .navbar{
+    text-align: center;
+     background-color: #fac769;  
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+ }
+ .two {
+    color:white;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+    line-height: 1;
+    background-color: white;
+    border-radius: 5px;
+  
+    width: 195px;
+    height: 51px;
+   
+}
+ .two:hover {
+    color: white;
+    background-color:whitesmoke;
+    border-radius: 15px;
+ }
+ .svg {
+    width: 1.5%;
+ }
+ 
+ .of{
+    margin-left: 50%;
+    margin-top: 30%;
+   
+ }
+
+ .head{
+   font-weight: bold;
+   font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+
+}
+.our{
+   letter-spacing: -1px;
+    color: #232323;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3.1rem;
+    font-weight: bold;
+}
+
+.card {
+   border:none  !important;
+  
+}
+ 
+.find{
+   padding-top: 90px;
+    padding-bottom: 0px;
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+   text-align: left;
+   padding-left: 15%;
+}
+
+.lorem{
+   font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    box-sizing: border-box;
+    box-sizing: border-box;
+}
