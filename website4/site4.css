@@ -51,26 +51,19 @@ html, body {
  ul.drp-bg{
    background-color: #fac769; 
  }
- .two {
-    color:white;
-    border: white;
-    font-family: inherit;
-    font-size: inherit;
-    line-height: inherit;
-    text-transform: uppercase;
-    text-align: center;
-    outline: none;
-    line-height: 1;
-    background-color: white;
-    border-radius: 5px;
-    width: 195px;
-    height: 51px;
-   
-}
+ a.two{
+   background-color: white;
+   padding: 15px;
+   border-radius:24px;
+   font-family: inherit;
+   font-size: inherit;
+ }
+
  .two:hover {
     color: white;
     background-color:wheat;
     border-radius: 15px;
+
  }
  .svg {
     width: 1.5%;
@@ -97,9 +90,9 @@ html, body {
     font-weight: bold;
     font-weight: 800;
 }
-
-/* .card {
-   border:none  !important; */
+.card {
+   border:none  !important; 
+}
   
 
  
@@ -147,7 +140,7 @@ html, body {
     
 }
 .phone{
-  margin-left: -50%;
+  margin-left: -45%;
 
 } 
 
@@ -165,8 +158,11 @@ html, body {
 }
 .sample{
    position: relative;
+   padding-left: 20%;
+  padding-right: 20%;
+  
 }
-.card-header{
+ .card-header{
    position: absolute;
 }
 
@@ -313,18 +309,8 @@ body{
     font-weight: 800;
   }
 
-  .here{
-  
-   padding-top: 2%;
-   padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 2%;
-  }
-  .cap{
-   
-   padding-left: 20%;
-  padding-right: 20%;
-  padding-bottom: 4%;
+  .lay{
+   padding-bottom: 3%;
   }
 
   .do{
@@ -333,19 +319,49 @@ body{
 
   .you{
    padding-top: 2%;
+   padding-right: 5%;
+   padding-left: 9%;
   }
 
   .container {
  
-      position: sticky;
+     position: sticky;
 }
 
 .containerbackground {
-   margin: 3rem;
-   position: absolute;
+   margin: 3.4rem;
+   position: absolute; 
    font-size: 5rem;
 font-weight: 1000;
    z-index: -1;
 color: #fac769;
    
+}
+
+.not{
+   padding-top: 3%;
+   text-align: center;
+   color: #767676;
+
+}
+
+.see{
+   text-align: center;
+  
+   font-weight: 800;
+}
+
+.gall {
+   width: 6%;
+  
+}
+
+.all{
+   text-align: center;
+   padding-top: 3%;
+   padding-bottom: 2%;
+}
+
+.online{
+   width: 1.7%;
 }
