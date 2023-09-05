@@ -1,0 +1,63 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+ }
+
+
+.rain {
+    color: #0878a0;;
+    font-size: 22px;
+    font-weight: 600;
+} 
+
+.call{
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.zero{
+    background-image: url(img/hero-bg.png);
+     height: 105vh;
+     width: 100%;
+ 
+   
+}
+.brain{
+width: 25%;
+
+}
+
+
+.more{
+    color:white;
+    border: 3px solid white;
+    font-family:'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    outline: none;
+    line-height: 1;
+    background-color : hsl(0, 63%, 54%);
+    padding: 20px;
+    border-radius: 5px;
+}
+ .more:hover {
+    color: white;
+    background-color: hsl(5, 85%, 46%);
+}
+
+.make{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: #101010;
+}
+
+/* .vari{
+    margin-left: 100%;
+} */
+
+.but{
+    width: 100%;
+ 
+}
