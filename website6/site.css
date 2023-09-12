@@ -1,0 +1,33 @@
+.home{
+    font-size: 22px;
+}
+.about{
+    font-size: 22px;
+}
+.excerpt{
+    font-size: 22px;
+}
+.contact{
+    font-size: 22px;
+}
+.ron{
+    font-size: 52px;
+}
+.simple{
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.lorem{
+   padding-left: 8%;
+}
+
+.book img{
+   /* height: 100%; */
+   padding-right: 50%;
+}
+
+.ipsum{rotate: 90deg;
+
+}
+
