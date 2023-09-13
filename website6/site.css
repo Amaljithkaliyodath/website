@@ -1,3 +1,12 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+ }
+
+ .untill{
+ margin-left: 10%;
+ }
+
 .home{
     font-size: 22px;
 }
@@ -14,20 +23,46 @@
     font-size: 52px;
 }
 .simple{
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 600;
 }
 
-.lorem{
+/* .lorem{
    padding-left: 8%;
-}
+} */
 
 .book img{
    /* height: 100%; */
    padding-right: 50%;
 }
 
-.ipsum{rotate: 90deg;
+/* .line{
+    width: 20%;
+    rotate: 90deg;
+} */
+/* .hori{
+    rotate: 90deg;
+} */
+.face{
+    width: 8%;
+    /* rotate: 265deg; */
+ 
+}
+.inta{
+    width: 10%;
+}
+.you{
+    width: 7%;
+}
+/* .logo{
+rotate: 90deg;
+} */
 
+.hand{
+    width: 70%;
+   
+}
+.egg{
+  color: darkslategray;
 }
 
