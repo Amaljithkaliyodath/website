@@ -20,29 +20,42 @@ html, body {
     font-size: 22px;
 }
 .ron{
-    font-size: 52px;
+    font-size: 45px;
+    font-weight: 600;
+
 }
 .simple{
-    font-size: 70px;
-    font-weight: 600;
+    font-size: 80px;
+    font-weight: 700;
 }
 
-/* .lorem{
-   padding-left: 8%;
-} */
+.dummy{
+    margin-left: 90px;
+}
 
+.type{
+    background-color: darkolivegreen;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  }
 .book img{
-   /* height: 100%; */
    padding-right: 50%;
 }
 
-/* .line{
-    width: 20%;
+.line{
+    width: 10%;
     rotate: 90deg;
-} */
-/* .hori{
-    rotate: 90deg;
-} */
+   
+}
+.change{
+    rotate:90deg;
+   padding-bottom: 120%;
+   margin-left:-4%;
+}  
 .face{
     width: 8%;
     /* rotate: 265deg; */
@@ -54,15 +67,92 @@ html, body {
 .you{
     width: 7%;
 }
-/* .logo{
-rotate: 90deg;
-} */
+
+/* .socialicon{
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.social li{
+    list-style-type:none;
+    background-color:#fff;
+    color:#efefef;
+    height:43px;
+ } 
+.social li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}  */
+
+.right{
+    margin-left: 1570%;
+}
+
 
 .hand{
-    width: 70%;
+    width: 60%;
    
 }
-.egg{
-  color: darkslategray;
+.ideo{
+    font-size:70px;
+    font-weight: 750;
+    
 }
 
+.fact{
+    color: grey;
+}
+.make{
+    color: cadetblue;
+}
+.when{
+    padding-top: 15%;
+}
+
+.up{
+    font-size: 60px;
+   margin-bottom: -2%;
+}
+.one{
+    border-radius: 90%;
+    width: 40px;
+    height: 45px;
+    background: #fff;
+    border: 3px solid black;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+.two{
+    border-radius: 90%;
+    width: 40px;
+    height: 45px;
+    background: cadetblue;
+    border: 3px solid black;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+.three{
+    border-radius: 90%;
+    width: 40px;
+    height: 45px;
+    background: #fff;
+    border: 3px solid black;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
+.four{
+    border-radius: 90%;
+    width: 40px;
+    height: 45px;
+    background: #fff;
+    border: 3px solid black;
+    color: #000;
+    text-align: center;
+    font: 32px Arial, sans-serif;
+}
