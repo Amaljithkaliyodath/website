@@ -116,43 +116,80 @@ html, body {
     font-size: 60px;
    margin-bottom: -2%;
 }
-.one{
-    border-radius: 90%;
-    width: 40px;
-    height: 45px;
-    background: #fff;
-    border: 3px solid black;
-    color: #000;
-    text-align: center;
-    font: 32px Arial, sans-serif;
-}
-.two{
-    border-radius: 90%;
-    width: 40px;
-    height: 45px;
-    background: cadetblue;
-    border: 3px solid black;
-    color: #000;
-    text-align: center;
-    font: 32px Arial, sans-serif;
-}
-.three{
-    border-radius: 90%;
-    width: 40px;
-    height: 45px;
-    background: #fff;
-    border: 3px solid black;
-    color: #000;
-    text-align: center;
-    font: 32px Arial, sans-serif;
-}
-.four{
-    border-radius: 90%;
-    width: 40px;
-    height: 45px;
-    background: #fff;
-    border: 3px solid black;
-    color: #000;
-    text-align: center;
-    font: 32px Arial, sans-serif;
-}
+
+
+  
+  .text1, .text2, .text3, .text4, .text5, .row > p{
+    display:none;
+    text-align:left;
+  }
+    
+  
+  .wrapper{
+    display:inline-block;
+    position:relative;
+    height:90px;
+    width:90px;
+    margin:5px;
+    /*border:1px dashed black;*/
+  }
+  
+  .button1, .button2, .button3, .button4, .button5{
+    position: absolute;
+    top: 04%;
+    left: 40%;
+    height: 62%;
+    width: 62%;
+    margin: -26% 0 0 -26%;
+    border-radius:200px;
+    transition:0.5s ease;
+  }
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .parent button {
+    background-color: #48abe0;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 31px;
+    height: 110px;
+    width: 110px;
+    box-shadow: 0 2px 4px darkslategray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .parent button:active {
+    background-color: #48abe0;
+    box-shadow: 0 0 2px darkslategray;
+    transform: translateY(2px);
+  }
+  
+  .parent button:not(:first-child) {
+    margin-top: 10px;
+  }
+  
+  .round-1 {
+    border-radius: 40%;
+  }
+  
+  .round-2 {
+    border-radius: 40%;
+  }
+  
+  .round-3 {
+    border-radius: 40%;
+  }
+  
+  .round-4 {
+    border-radius: 40%;
+  }
+  
+  
+  
+  
+  
