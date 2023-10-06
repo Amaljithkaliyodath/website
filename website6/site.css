@@ -34,6 +34,7 @@ margin-left: 10%;
 }
 
 .type{
+ 
   background-color: darkolivegreen;
   color: white;
   padding: 15px 32px;
@@ -71,42 +72,7 @@ color: black;
   margin-bottom: 13.5%;
 }
 
-/* 
-.right{
-  padding-left: 70%;
-} */
 
-
-/* 
-.face{
-  width: 8%;
-  
-
-}
-.inta{
-  width: 10%;
-}
-.you{
-  width: 7%;
-}  */
-/* .socialicon{
-  position:fixed;
-  right:-130px;
-  top:230px;
-  width:210px;
-  z-index: 1100;
-}
-.social li{
-  list-style-type:none;
-  background-color:# /* rotate: 265deg; fff;
-  color:#efefef;
-  height:43px;
-} 
-.social li img{
-  float:left;
-  margin:5px 4px;
-  margin-right:5px;
-}  */
 
 
 .hand{
@@ -324,7 +290,7 @@ body, button, input {
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  background: #4d4d4f;
+  background:white;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -591,6 +557,7 @@ transform: scale(0.6);
   -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
 -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
 animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+flex-direction: column;
 
 left: 5%;
 top: 80%;
@@ -743,4 +710,17 @@ left: 10px;
 position: absolute;
 width: 180px;
 }
+
+
+.popular{
+  margin-right: 70%;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
 
