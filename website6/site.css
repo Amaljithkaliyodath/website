@@ -34,7 +34,6 @@ margin-left: 10%;
 }
 
 .type{
- 
   background-color: darkolivegreen;
   color: white;
   padding: 15px 32px;
@@ -68,11 +67,37 @@ color: black;
 }
 
 
-.orem{
-  margin-bottom: 13.5%;
+
+
+.face{
+  width: 8%;
+  
+
 }
-
-
+.inta{
+  width: 10%;
+}
+.you{
+  width: 7%;
+} 
+/* .socialicon{
+  position:fixed;
+  right:-130px;
+  top:230px;
+  width:210px;
+  z-index: 1100;
+}
+.social li{
+  list-style-type:none;
+  background-color:# /* rotate: 265deg; fff;
+  color:#efefef;
+  height:43px;
+} 
+.social li img{
+  float:left;
+  margin:5px 4px;
+  margin-right:5px;
+}  */
 
 
 .hand{
@@ -114,7 +139,7 @@ color: black;
   height:90px;
   width:90px;
   margin:5px;
-  border:1px dashed black;
+  /border:1px dashed black;/
 }
 
 .button1, .button2, .button3, .button4, .button5{
@@ -269,7 +294,7 @@ body, button, input {
 
 .screen {
   position: relative;
-  background: white;
+  background: #3e3e3e;
   border-radius: 15px;
 }
 
@@ -290,7 +315,7 @@ body, button, input {
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  background:white;
+  background: #4d4d4f;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
@@ -557,7 +582,6 @@ transform: scale(0.6);
   -webkit-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
 -moz-animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
 animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
-flex-direction: column;
 
 left: 5%;
 top: 80%;
@@ -710,16 +734,6 @@ left: 10px;
 position: absolute;
 width: 180px;
 }
-
-
-.popular{
-  margin-right: 70%;
-  margin-top: 20px;
-}
-
-
-
-
 
 
 

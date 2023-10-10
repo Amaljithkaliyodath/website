@@ -1,0 +1,464 @@
+.first{
+    margin-left: 35%;
+}
+
+.black{
+    color: black;
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.file{
+   width: 10%;
+   margin-left: 90%;
+}
+
+.search-hover {
+    border: 1px solid #ccc;
+    outline: none;
+    background-size: 22px;
+    background-position: 13px;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    padding: 25px;
+    transition: all 0.5s;
+  }
+  .search-hover:hover {
+    width: 300px;
+    padding-left: 100px;
+  }
+
+  .water{
+    background-image: url(img/flea-banner-04-1-1024x384.jpg) ;
+ background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    background-size: 100%;
+    margin-left: 10Px;
+  }
+
+  .letter{
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+
+  .artisans{
+    font-weight: 800;
+    font-size: 71px;
+ 
+  }
+
+
+  .joinBtn {
+    width: 8em;
+    height: 5ex;
+    background-color:black;
+    border: 2px solid firebrick;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .joinBtn:hover {
+  color: black;
+    background-color:white;
+  }
+
+
+
+
+  .sell{
+    margin-left: 49%;
+  }
+
+
+  .fruits {
+    width: 8em;
+    height: 5ex;
+    background-color:rgb(86, 86, 230);
+   
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    margin: 10%;
+   
+  }
+  
+  .fruits:hover {
+  color: black;
+    background-color:white;
+  }
+ 
+
+  .shoot{
+    width: 200px;
+    height: 300px;
+    
+    position: absolute;
+    top:0; right: 0; left: 0; bottom: 0;
+    margin: auto;
+    
+    background: url("img/style-shoot-1-300x300.jpg");
+    width: 60%;
+    background-color: black;
+    background-size: cover;
+    cursor: pointer;
+    
+    -webkit-box-shadow: 0 0 5px #000;
+          box-shadow: 0 0 5px #000;
+    }
+  
+  .overlay {
+    width: 100%;
+    height: 100%;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    
+    background: rgba(77, 77, 77, .9);
+  
+    opacity: 0;
+    transition: all 0.5s;
+    
+    font-family: 'Playfair Display', serif;
+  }
+  
+  
+  .items {
+    padding-left: 20px;
+    letter-spacing: 3px;
+  }
+  
+  .head {
+    font-size: 30px;
+    line-height: 40px;
+    
+    transform: translateY(40px);
+    transition: all 0.7s;
+    hr {
+      display: block;
+      width: 0;
+      
+      border: none;
+      border-bottom: solid 2px $bg;
+      
+      position: absolute;
+      bottom: 0; left:20px;
+      
+      transition: all .5s;
+    }
+  }
+  
+  .price {
+    font-size: 22px;
+    line-height: 10px;
+    font-weight: bold;  
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.7s;
+    .old {
+      text-decoration: line-through;
+      color: lighten(rgb(77, 77, 77),40%);
+    }
+  }
+  
+  .cart {
+    font-size: 12px;
+    opacity: 0;
+    letter-spacing: 1px;
+    font-family: 'Lato', sans-serif;
+    transform: translateY(40px);
+    transition: all 0.7s;
+    i {
+      font-size: 16px;
+    }
+    span {
+      margin-left: 10px;
+    }
+  }
+  
+  .shoot:hover .overlay {
+    opacity: 1;
+    & .head {
+      transform: translateY(0px);
+    }
+    
+    & hr {
+      width: 75px;
+      transition-delay: 0.4s;
+    }
+    
+    & .price {
+      transform: translateY(0px);
+      transition-delay: 0.3s;
+      opacity: 1;
+    }
+    
+    & .cart {
+      transform: translateY(0px);
+      transition-delay: 0.6s;
+      opacity: 1;
+    }
+  }
+  
+
+  .lay{
+    width: 200px;
+    height: 300px;
+    
+    position: absolute;
+    top:0; right: 0; left: 0; bottom: 0;
+    margin: auto;
+    
+    background: url("img/acontent_wb2-scaled-300x300.jpg");
+    width: 60%;
+    background-color: black;
+    background-size: cover;
+    cursor: pointer;
+    
+    -webkit-box-shadow: 0 0 5px #000;
+          box-shadow: 0 0 5px #000;
+    }
+    .lay:hover .overlay {
+        opacity: 1;
+        & .head {
+          transform: translateY(0px);
+        }
+        
+        & hr {
+          width: 75px;
+          transition-delay: 0.4s;
+        }
+        
+        & .price {
+          transform: translateY(0px);
+          transition-delay: 0.3s;
+          opacity: 1;
+        }
+        
+        & .cart {
+          transform: translateY(0px);
+          transition-delay: 0.6s;
+          opacity: 1;
+        }
+
+    }
+
+    .fire{
+        width: 200px;
+        height: 300px;
+        
+        position: absolute;
+        top:0; right: 0; left: 0; bottom: 0;
+        margin: auto;
+        
+        background: url("img/acontent_wb1-1-1-300x300.jpg");
+      width: 60%;
+        background-color: black;
+        background-size: cover;
+        cursor: pointer;
+        
+        -webkit-box-shadow: 0 0 5px #000;
+              box-shadow: 0 0 5px #000;
+        }
+        .fire:hover .overlay {
+            opacity: 1;
+            & .head {
+              transform: translateY(0px);
+            }
+            
+            & hr {
+              width: 75px;
+              transition-delay: 0.4s;
+            }
+            
+            & .price {
+              transform: translateY(0px);
+              transition-delay: 0.3s;
+              opacity: 1;
+            }
+            
+            & .cart {
+              transform: translateY(0px);
+              transition-delay: 0.6s;
+              opacity: 1;
+            }
+        }
+
+
+
+        
+        
+        #footer-sub{
+            background-color: #cbd0d1;
+            border-top: 1px solid #dbdbdb;
+        }
+        
+        #footer-main{
+            background-color: #012b72;
+        }
+        
+        #footer-sub h5{
+            color:#565656;
+            margin-top: 25px;
+        }
+        
+        #footer-sub ul{
+            list-style: none;
+            margin-top: 20px;
+        }
+        
+        #footer-sub hr{
+            margin: 5px;
+        
+        }
+        
+        #footer-sub ul li{
+        margin-left: -38px;
+        }
+        
+        #footer-sub a:link {
+            text-decoration: none;
+            color:#565656;
+            font-size: 12px;
+        }
+        
+        #footer-sub a:visited {
+            text-decoration: none;
+            color:#565656;
+        }
+        
+        
+        #footer-sub a:hover {
+            text-decoration: none;
+            color: blue;
+        }
+        
+        
+        #footer-sub a:active {
+            text-decoration: none;
+            color:#565656;
+        }
+        
+        .vertical-line{
+            border-right: 1px solid #dbdbdb;
+            margin: 8px;
+            padding: 0px;
+        }
+        
+        .glyphicon {
+            font-size: 35px;
+             color:#6d6c6c;
+        }
+        
+        #sub-two{
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        #sub-two .vertical-line h4{
+            color:#6d6c6c;
+        }
+        
+        
+        #footer-main ul{
+            list-style: none;
+        }
+        
+        #footer-main ul li{
+            float:left;
+            text-decoration: none;
+            padding-left: 15px;
+            margin-top: 17px;
+        }
+        
+        #footer-main a:link {
+            color:white;
+            font-size: 12px;
+        }
+        
+        #footer-main a:visited {
+            color:white;
+        }
+        
+        
+        #footer-main a:hover {
+            text-decoration: none;
+            color: #00b9f5;
+        }
+        
+        
+        #footer-main a:active {
+            color:white;
+        }
+        
+        .glyphicon-search{
+            font-size: 20px;
+        }
+        
+        #social-menu{
+            float: right;
+           margin-right: 60px;
+        }
+        
+        #side-padding{
+            padding: 0px;
+            margin: 0px;
+        }
+
+
+        .oter{
+            margin-top: 30%;
+        }
+
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+
+      
+        .cart-container {
+            margin-top: 2rem;
+            text-align: center;
+            background-color: #ccc;
+            padding: 10%;
+        }
+
+        .down{
+            font-size: 31px;
+        }
+
+        .cart-item {
+            margin: 0.5rem;
+        }
+
+        .cart-item button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+
+
+        .shop{
+            margin-top: 15%;
+        }
+
+        .submit-btn {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+        
