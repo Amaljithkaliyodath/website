@@ -1,21 +1,43 @@
-.labtest{
-    background-image: url("img/medium-shot-scientist-working-with-microscope.jpg");
-        width: 100%;
-        height:100vh; 
-        /* background-position: right; */
-        
-   }
-/* 
-   .intro{
-padding-bottom: 50px;
-   } */
 
+
+
+  /* NAVIGATION */
+  nav {
+	width: 80%;
+	margin: 0 auto;
+	background: #fff;
+	padding: 50px 0;
+	box-shadow: 0px 5px 0px #dedede;
+  }
+ 
+  nav ul li a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: #aaa;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 0 10px;
+  }
+
+ 
+ 
+ .intro{
+padding-bottom: 50px;
+   } 
+
+
+  .btn-success{
+	margin-left: 100%;
+  }
+   
    .button2 { 
     background-color:blue; 
     color: #ffffff; 
     border-radius: 15px; 
     width: 140px;
     height: 40px;
+
 } 
 
 .announcmen{
@@ -39,15 +61,7 @@ padding-bottom: 50px;
 	margin: 0;
 	padding: 0;
 }
-/* 
-body {
-	box-sizing: border-box;
-	font-family: Poppins, sans-serif;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100vh;
-} */
+
 
 h2 {
 	font-family: 'Bree Serif', serif;
