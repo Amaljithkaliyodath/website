@@ -34,9 +34,17 @@ margin-left: 10%;
 	padding: 0;
 	margin: 0px 0px 25px 0px;}
 
+
+
+
   .btn-success{
 margin-left: 90%;
   } 
+  .btn-success:hover {
+    background-color:rgb(75, 75, 214);
+
+}
+
    
    .button2 { 
     background-color:rgb(78, 78, 197); 
@@ -46,6 +54,10 @@ margin-left: 90%;
     height: 40px;
 
 } 
+
+.button2:hover{
+	background-color: rgb(33, 202, 33);
+}
 
 .introimg{
 	width:100vh;
@@ -87,11 +99,13 @@ margin-left: 90%;
 	width: 2vh;
 }
 .announcments{
-  color: rgb(2, 2, 2);
+  color: rgb(7, 0, 0);
 background-color: rgb(4, 172, 4);
+
 
 }
 .announcment{
+	color:black ;
 	background-color: rgb(13, 141, 13);
 
 }
@@ -128,6 +142,18 @@ background-color: rgb(4, 172, 4);
     width: 140px;
     height: 40px;
 } 
+
+
+.button3:hover{
+	background-color: rgb(29, 204, 29)
+}
+
+
+.testimonial img:hover {
+    /* Add your desired hover effect styles here */
+    opacity: 0.7; /* Example: reduce opacity on hover */
+    /* Additional styling if needed */
+}
 
 
 
