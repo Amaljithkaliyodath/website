@@ -65,7 +65,7 @@ margin-left: 90%;
 }
 
 /* announcment section */
-@keyframes marquee {
+/* @keyframes marquee {
 	0% {
 	  margin-left: 100%;
 	  transform: translateX(0%);
@@ -93,7 +93,7 @@ margin-left: 90%;
   .text-styling {
 
 	padding: -1em;
-  }
+  } */
   
 .anno{
 	width: 2vh;
