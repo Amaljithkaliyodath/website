@@ -67,37 +67,6 @@ margin-left: 90%;
  height: 50%;
 }
 
-/* announcment section */
-/* @keyframes marquee {
-	0% {
-	  margin-left: 100%;
-	  transform: translateX(0%);
-	}
-	100% {
-	  margin-left: 0;
-	  transform: translateX(-100%);
-	}
-  }
-  
-  .section {
-	overflow: hidden;
-  
-	.marquee {
-	  animation: marquee 7s linear infinite;
-	  display: inline-block;
-	  white-space: nowrap;
-  
-	  &:hover {
-		animation-play-state: paused;
-	  }
-	}
-  }
-  
-  .text-styling {
-
-	padding: -1em;
-  } */
-  
 
 .anno{
 	width: 2vh;
@@ -117,10 +86,17 @@ background-color: rgb(4, 172, 4);
 
 
 
+.carouseldot{
+	background-color: rgb(235, 235, 235);
+}
+.carouseldiv{
+	margin-top: 5%;
+}
 
-
-
-
+.social :hover{
+ background-color:rgb(70, 70, 219);
+ border-radius: 50%;
+}
 
 
 
@@ -262,3 +238,17 @@ h2 {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
