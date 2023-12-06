@@ -91,6 +91,11 @@ background-color: rgb(4, 172, 4);
 }
 .carouseldiv{
 	margin-top: 5%;
+	font-family: 'Oswald', sans-serif !important;
+font-weight: 300;
+font-size: 44px;
+text-align: center;
+
 }
 
 .social :hover{
@@ -100,9 +105,27 @@ background-color: rgb(4, 172, 4);
 
 
 
+.visit{border: 1px solid rgb(169, 169, 240)}
+
+.visittp{
+	border-top: 1px solid rgb(169, 169, 240);
+
+	border-bottom: 1px solid rgb(169, 169, 240);}
+
+.co{
+	
+		--BlueColor: #22419c;
+		--GreenColor: #85ba32;
+		--LightBgColor: #e4e8f3;
+		--headingColor: #333333;
+		--textcolor: #666666;
+}
 
 
 
+.pngwing{
+margin-left: 7%;
+}
 
 
 .explain {
