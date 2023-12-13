@@ -87,7 +87,7 @@ background-color: rgb(4, 172, 4);
 
 
 .carouseldot{
-	background-color: rgb(235, 235, 235);
+	background-color: #e4e8f3;
 }
 .carouseldiv{
 	margin-top: 5%;
@@ -170,6 +170,9 @@ margin-left: 7%;
     opacity: 0.7; /* Example: reduce opacity on hover */
     /* Additional styling if needed */
 }
+
+
+
 
 
 
@@ -263,13 +266,113 @@ h2 {
 }
 
 
+/* testmonial */
+
+:root {
+    --orange: #fd9940;
+    --darkorange: #dd7d25;
+    --platinum: #e5e5e5;
+    --black: #2b2d42;
+    --white: #fff;
+    --thumb: #edf2f4;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.Patho {
+    max-width: 1400px;
+    padding: 0 15px;
+    margin: 0 auto;
+	margin-bottom: 8%;
+}
+
+
+.cards {
+    display: grid;
+    grid-auto-columns: 100%;
+    grid-column-gap: 10px;
+    grid-auto-flow: column;
+    padding: 25px 0px;
+    list-style: none;
+    overflow-x: scroll;
+    -ms-scroll-snap-type: x mandatory;
+    scroll-snap-type: x mandatory;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: var(--white);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 15%);
+    scroll-snap-align: start;
+    transition: all 0.2s;
+   
+}
+
+.card:hover {
+    color: var(--black);
+    /* background: var(--orange); */
+    border-color: blue;
+
+}
+
+
+
+.card .card-content {
+    margin: 20px 0;
+    max-width: 85%;
+    margin-left: 35%;
+}
+
+.cards::-webkit-validation-bubble {
+    height: 12px;
+}
 
 
 
 
+@media (min-width: 500px) {
+    .cards {
+        grid-auto-columns: calc(50% - 10px);
+        grid-column-gap: 20px;
+    }
+}
+
+@media (min-width: 700px) {
+    .cards {
+        grid-auto-columns: calc(calc(100% / 3) - 20px);
+        grid-column-gap: 30px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .cards {
+        grid-auto-columns: calc(25% - 30px);
+        grid-column-gap: 40px;
+    }
+}
 
 
+/* end  */
 
+ 
+
+
+/* banner */
+.telephone{
+	padding: 0;
+margin: 0px 0px 2px 0px;
+color: #381313;
+font-size: 28px;
+}
 
 
 
