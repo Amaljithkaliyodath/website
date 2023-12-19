@@ -686,7 +686,7 @@ padding: 0;
   background: var(--darkorange);
 }
 
-.very::-webkit-scrollbar-track {
+.very::-webkit-scrollbar-track {  border-color: blue;
   background: var(--thumb);
 }
 
@@ -719,8 +719,8 @@ padding: 0;
 
 .embrace{
   font-family: 'Oswald', sans-serif !important;
-font-weight: 400;
-font-size: 34px;
+  font-weight: 290;
+  font-size: 44px;
 text-align: left;
 margin-top: 5%;
 margin: 0px 0px 35px 0px;
@@ -735,3 +735,85 @@ margin: 0px 0px 35px 0px;
   top: 5px;
   background: url(img/tick.png) no-repeat;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-container {
+  width: 100%;
+  max-width: 390px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 9px;
+  border-color: blue;
+  box-sizing: border-box;
+}
+
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+.button6[type="submit"] {
+  background-color:rgb(78, 78, 197);
+
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  /* margin-left: 30%; */
+
+  width: 100%;
+height: 44px;
+color: #fff;
+font-size: 15px;
+outline: none;
+text-transform: uppercase;
+transition-duration: 0.3s;
+position: relative;
+}
+
+.button6[type="submit"]:hover {
+  background-color: #45a049;
+ 
+ 
+}
+
+.enqu{
+font-family: 'Oswald', sans-serif !important;
+font-weight: 500;
+font-size: 44px;
+text-align: center;
+padding: 0;
+margin: 0px 0px 15px 0px;
+}
+.inqu{
+text-align: center;
+font-size: 15px;
+padding: 0;
+line-height: 22px;
+margin: 0px 0px 0px 0px;
+}
+
+.enqui{
+  margin-top: 9%;
+}
+
