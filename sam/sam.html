@@ -5,7 +5,7 @@
 
 
 
-
+/* 
 .contact-middle-wrapper {
   width: 100%;
   background: var(--LightBgColor);
@@ -17,17 +17,42 @@
   height: 375px;
   border-radius: 4px;
 }
+ */
 
 
+ .phone-card {
+ display: flex;
+ align-items: center;
+ background-color: #f0f0f0;
+ padding: 10px;
+ border-radius: 5px;
+ cursor: pointer;
+ transition: background-color 0.3s;
+}
 
+.phone-card:hover {
+ background-color: #e0e0e0;
+}
 
+.icon {
+ margin-right: 10px;
+ color: #007bff;
+}
 
+.phone-number {
+ flex-grow: 1;
+}
+
+.copy {
+ margin-left: 10px;
+ color: #6c757d;
+}
 
 </style>
 </head>
 <body>
 
-  <section class="contact-middle-wrapper">
+  <!-- <section class="contact-middle-wrapper">
     <div class="container">
         <div class="row">
             <div class="col-lg-5 pe-lg-5">
@@ -78,6 +103,46 @@
             </div>
         </div>
     </div>
+</section> -->
+
+
+
+
+<section class="contact-top-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="contact-item">
+                    <span><i class="fas fa-phone-alt"></i></span>
+                    <h4>Phone</h4>
+                                            <p><a href="tel:+91 81388 62626">+91 81388 62626</a></p>
+                                                                <p><a href="tel:0484 0000 0000">0484 0000 0000</a></p>
+                                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="contact-item">
+                    <span><i class="far fa-envelope"></i></span>
+                    <h4>Email</h4>
+                                            <p><a href="mailto:info@gmrllabs.com">info@gmrllabs.com</a></p>
+                                                        </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="contact-item">
+                    <span><i class="fas fa-map-marker-alt"></i></span>
+                    <h4>Address</h4>
+                                            <p>GMRL Laboratories Chambakkara, Ernakulam, Ernakulam - 682011</p>
+                                    </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="contact-item">
+                    <span><i class="far fa-clock"></i></span>
+                    <h4>Opening Hours</h4>
+                                            <p>Mon - Sat : 6:30pm to 6:00pm<br>
+Sun : 6:30am - 12:30pm</p>
+                                    </div>
+            </div>
+        </div>
+    </div>
 </section>
 
 
@@ -88,14 +153,12 @@
 
 
 
-
-
-
-
-
-
-
-
+   <script type="text/javascript"src="../boot/bootstrap.min.js"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> 
+   </body>
+   </html>
 </body>
 </html>
 
