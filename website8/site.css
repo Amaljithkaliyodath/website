@@ -2,7 +2,12 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
-
+.col{
+  color: black;
+}
+.col:hover{
+  color: white;
+}
 
   /* NAVIGATION */
   nav {
@@ -17,16 +22,21 @@ html, body {
 	display: block;
 	padding: 15px;
 	text-decoration: none;
-	color: #aaa;
+	/* color: #aaa; */
+
 	font-weight: 800;
 	text-transform: uppercase;
 	margin: 0 10px;
   }
   .nav-item:hover{
 	color:white;
-     background-color: rgb(18, 18, 175);
-}
   
+  background-color: #22419c;
+  border-radius: 5%;
+}
+  .qwert{
+   width: 20%;
+  }
  
  .intro{
 margin-top: 25%;

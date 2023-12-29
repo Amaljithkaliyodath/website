@@ -17,9 +17,17 @@ nav {
   }
   .nav-item:hover{
 	color:white;
-     background-color: rgb(18, 18, 175);
+  background-color: #22419c;
+  border-radius: 5%;
 }
   
+.col{
+  color: black;
+}
+.col:hover{
+  color: white;
+}
+
 
 .btn-success{
     margin-left: 90%;
