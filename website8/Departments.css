@@ -1,0 +1,298 @@
+/* NAVIGATION */
+nav {
+	width: 80%;
+	margin: 0 auto;
+	background: #fff;
+	padding: 50px 0;
+	box-shadow: 0px 5px 0px #dedede;
+   
+  }
+ 
+  nav ul li a {
+	display: block;
+	padding: 15px;
+	text-decoration: none;
+	color: #aaa;
+	font-weight: 800;
+	text-transform: uppercase;
+	margin: 0 10px;
+  }
+  .nav-item:hover{
+	color:white;
+     background-color: #22419c;
+     border-radius: 5%;
+}
+  
+.col{
+    color: black;
+  }
+  .col:hover{
+    color: white;
+  }
+
+.btn-success{
+    margin-left: 90%;
+      } 
+      .btn-success:hover {
+        background-color:rgb(75, 75, 214);
+    
+    }
+    
+
+    .intro{
+        background-color: #e4e8f3;
+        
+        
+           } 
+    
+           .intoh{font-family: 'Oswald', sans-serif !important;
+            font-weight: 200;
+            font-size: 66px;
+            padding: 0;
+            margin-left: 10%;
+            margin-top: 30%;
+            
+            }
+
+            .introimg img{
+             width: 110%;
+            }
+
+            .inlab{
+                margin-left: 10%;
+                color: #666666;
+            }
+
+
+            /* Pathology */
+
+.Embark{
+    margin-top: 10%;
+}
+
+.result{
+    margin-top: 10%;
+}
+
+.pathology{
+    width: 60%;
+    border-radius: 1%;
+    margin-left: 230px;
+}
+
+
+.blaccor{
+    background-color:#e4e8f3 ;
+}
+
+ 
+.well{
+font-size: 16px;
+line-height: 28px;
+color: #666666;
+font-family: 'Roboto', sans-serif !important;}
+
+
+
+/* Biochemistry */
+.pathol{
+    width:80% ;
+    margin-right: 15%;
+}
+.resu{
+    margin-top: 5%;
+
+}
+
+/* Microbiology */
+.journey{
+    margin-top: 8%;
+}
+.patholo{
+    width: 80%;
+    margin-left: 23%;
+}
+
+/* Serology */
+.Patholog{
+    width: 85%;
+}
+
+.metabolic{
+    margin-top: 10%;
+}
+
+/* Immunology */
+
+.dvanced{
+    margin-top: 7%;
+}
+.screen{
+    width: 80%;
+    margin-left: 23%;
+}
+/* Radiology */
+.precise{
+    width: 75%;
+}
+.imaging{
+    margin-top: 8%;
+}
+/* Molecular Biology */
+.makeup{
+    margin-top: 7%;
+}
+.health{
+    width: 60%;
+    margin-left: 43%;
+}
+.expert{
+    margin-bottom:39px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.green{
+    background-color: #85ba32;
+  }
+  
+  
+  .button7 { 
+    background-color:rgb(15, 2, 2); 
+    color: #ffffff; 
+    border-radius: 15px; 
+    width: 140px;
+    height: 40px;
+  
+  } 
+  
+  .button7:hover{
+  background-color: rgb(33, 202, 33);
+  }
+  
+  
+  .foot{
+    background-color: #e4e8f3;
+    margin-top: 40px;
+  
+  }
+  
+  
+  .mrllogo img{
+    width: 100%;
+    
+  }
+  
+  .menu {
+    color: #666666;
+  }
+  
+ 
+  
+  
+  
+  /* social media */
+  
+  
+  .svg-inline--fa {
+    vertical-align: -0.200em;
+  }
+  
+  .rounded-social-buttons {
+    text-align: center;
+  }
+  
+  .rounded-social-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 2.125rem;
+    height: 2.125rem;
+    border: 0.125rem solid transparent;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 1.5625rem;
+    font-weight: normal;
+    line-height: 0em;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
+  }
+  
+  .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+  
+  .rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-linkedin, .fa-youtube, .fa-instagram {
+    font-size: 35px;
+  }
+  
+  .rounded-social-buttons .social-button.facebook {
+    background: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+    color: #3b5998;
+    background: #fefefe;
+    border-color: #3b5998;
+  }
+  
+  .rounded-social-buttons .social-button.twitter {
+    background: #55acee;
+  }
+  
+  .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+    color: #55acee;
+    background: #fefefe;
+    border-color: #55acee;
+  }
+  
+  .rounded-social-buttons .social-button.linkedin {
+    background: #007bb5;
+  }
+  
+  .rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+    color: #007bb5;
+    background: #fefefe;
+    border-color: #007bb5;
+  }
+  
+  .rounded-social-buttons .social-button.youtube {
+    background: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
+    color: #bb0000;
+    background: #fefefe;
+    border-color: #bb0000;
+  }
+  
+  .rounded-social-buttons .social-button.instagram {
+    background: #125688;
+  }
+  
+  .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+    color: #125688;
+    background: #fefefe;
+    border-color: #125688;
+  }
+  
+  
+  
+  
+  .rigths{
+    background: #d9dde9;
+  }
