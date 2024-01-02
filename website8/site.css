@@ -44,6 +44,9 @@ margin-left: 10%;
 
    } 
 
+   .introh{margin-top: 20%;
+    margin-left: 10%;}
+
    .intoh{font-family: 'Oswald', sans-serif !important;
 	font-weight: 500;
 	font-size: 56px;
@@ -51,6 +54,42 @@ margin-left: 10%;
 	margin: 0px 0px 25px 0px;}
 
 
+  .img-slider {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+}
+.img-slider  .slider-container {
+    position: absolute;
+    width: 300%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    animation: slider 26s infinite;
+}
+.img-slider   .slider-container .slide {
+    position: relative;
+    width: 33.33333333%;
+    height: 100%;
+  float: left;
+    overflow: hidden
+}
+.img-slider  .slider-container .slide img {
+  display: block;
+  width: 100%;
+  height: 100%
+}
+@keyframes slider {
+    0%, 25%, 100%{left: 0}
+    
+    30%, 55%{left: -100% }
+   
+    
+}
+
+
+
+  
 
 
   .btn-success{
@@ -80,7 +119,9 @@ margin-left: 90%;
  height: 50%;
 }
 
-
+.conanno{
+  margin-top: 20%;
+}
 .anno{
 	width: 2vh;
 }
@@ -95,6 +136,9 @@ background-color: rgb(4, 172, 4);
 	background-color: rgb(13, 141, 13);
 
 }
+
+
+
 
 
 
@@ -513,7 +557,7 @@ font-size: 20px;
   .cardes {
     margin-right: 25px;
     transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-    background-color: #b9a7a7;
+    background-color:rgb(105, 105, 228);
       width: 39.3%;
     position: relative;
     border-radius: 12px;
@@ -527,7 +571,7 @@ font-size: 20px;
   
   .cardes__info {
   z-index: 2;
-    background-color:gray;
+  background-color:rgb(212, 212, 212);
     border-bottom-left-radius: 12px;
   border-bottom-right-radius: 12px;
      padding: 16px 24px 24px 24px;
@@ -558,7 +602,7 @@ font-size: 20px;
   }
   
   .cardes:hover .cardes__info {
-      background-color: gray;
+    background-color: #85ba32;
       position: relative;
   }
   
@@ -567,8 +611,8 @@ font-size: 20px;
   }
   
   .button4 { 
-      background-color:rgb(91, 91, 201); 
-      color: #ffffff; 
+      background-color:rgb(255, 255, 255); 
+      color: #000000; 
       border-radius: 15px; 
       width: 140px;
       height: 40px;
@@ -969,4 +1013,14 @@ background-color: rgb(33, 202, 33);
 
 .rigths{
   background: #d9dde9;
+}
+
+
+.menu{
+  color: #666666;
+  text-decoration: none;
+}
+.menu:hover{
+  color:rgb(132, 132, 240);
+  text-decoration: none;
 }

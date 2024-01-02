@@ -217,3 +217,12 @@ nav {
   .rigths{
     background: #d9dde9;
   }
+ 
+.menu{
+  color: #666666;
+  text-decoration: none;
+}
+.menu:hover{
+  color:#666666;
+  text-decoration: none;
+}

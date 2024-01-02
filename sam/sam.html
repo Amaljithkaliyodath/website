@@ -5,8 +5,74 @@
     <link rel="stylesheet" href="../boot/bootstrap.min.css">
 <style>
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+.img-slider {
+    position: relative;
+    width: 100vw;
+    height: 400px;
+}
+.img-slider  .slider-container {
+    position: absolute;
+    width: 300%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    animation: slider 26s infinite;
+}
+.img-slider   .slider-container .slide {
+    position: relative;
+    width: 33.33333333%;
+    height: 100%;
+    float: left;
+    overflow: hidden
+}
+.img-slider  .slider-container .slide img {
+  display: block;
+  width: 100%;
+  height: 100%
+}
+@keyframes slider {
+    0%, 25%, 100%{left: 0}
+    
+    30%, 55%{left: -100%}
+    
+    60%, 85%{left: -200%}
+}
 
+ 
+.button2 { 
+    background-color:rgb(78, 78, 197); 
+    color: #ffffff; 
+    border-radius: 15px; 
+    width: 140px;
+    height: 40px;
+
+} 
+
+.button2:hover{
+	background-color: rgb(33, 202, 33);
+}
+
+.introimg{
+	width:100vh;
+ height: 50%;
+}
+.intro{
+margin-top: 25%;
+margin-left: 10%;
+
+   } 
+
+   .intoh{font-family: 'Oswald', sans-serif !important;
+	font-weight: 500;
+	font-size: 56px;
+	padding: 0;
+	margin: 0px 0px 25px 0px;}
 
 
 </style>
@@ -16,57 +82,59 @@
  
 
 
-
-  <div class="col-lg-8 pe-lg-5">
-    <h2 >Ayush Gold</h2>
-    
-<ul>
-<li>Blood Sugar</li>
-
-
-
-<li>Lipid Profile</li>
-
-
-
-<li>Liver Function Test(LFT)</li>
-
-
-
-<li>Renal Function Test (RFT)</li>
-
-
-
-<li>Thyroid Function Test (TFT)</li>
-
-
-
-<li>HbA1c</li>
+  <Section class="img-slider blood">
+    <div class="slider-container">
+      
+      <div class="slide">
+        <div class="container-fluid">
+          <div class="row">
+        
+            <div class="col-lg intro">
+              <h1 class="intoh">Unlocking Vital
+                <br> Insights: Your Blood, Your Lab</h1>
+        
+                <p>
+                  Unlocking Vital Insights: Where Your Blood Holds the Key to Your <br>Health - Welcome to Your Trusted Laboratory</p>
+        
+                  <a href="Contact Us.html"><button class="pure-button button2 " >Learn More</button> </a>
+            </div>
+        
+            <div class="col-lg introimg">
+              <img src="img/medium-shot-scientist-working-with-microscope.jpg" alt="">
+            </div>
+        
+          </div>
+        </div>
+      </div>
 
 
-
-<li>CBC</li>
-
-
-
-<li>Urine Routine</li>
-
-
-
-<li>Vitamin D</li>
-</ul>
-
-
-
-<p><em><strong>Note</strong>: Fasting Sample is Preferred</em></p>
-  </div>
-  <div class="blog-sidebar">
-    <h5 class="package-price-single"><font>From: <i class="fas fa-rupee-sign"></i> 699</font></h5>
-    <span>
-                              <img src="https://www.demo.ooly.in/gmrl/wp-content/uploads/2023/11/package2.jpg" class="attachment-large size-large wp-post-image" alt="Ayush General" decoding="async" fetchpriority="high" width="600" height="416">                     
-    </span>
-            
-  </div>
+      
+      <div class="slide">
+        <div class="container-fluid">
+          <div class="row">
+        
+            <div class="col-lg intro">
+              <h1 class="intoh">Unlocking Vital
+                <br> Insights: Your Blood, Your Lab</h1>
+        
+                <p>
+                  Unlocking Vital Insights: Where Your Blood Holds the Key to Your <br>Health - Welcome to Your Trusted Laboratory</p>
+        
+                  <a href="Contact Us.html"><button class="pure-button button2 " >Learn More</button> </a>
+            </div>
+        
+            <div class="col-lg introimg">
+              <img src="img/img/molecular-biology.png" alt="">
+            </div>
+        
+          </div>
+        </div>
+      </div>
+  
+     
+      
+    </div>
+  </Section>
 
 
 
