@@ -1,3 +1,7 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 /* NAVIGATION */
 nav {
 	width: 80%;
@@ -245,3 +249,13 @@ nav {
                 background: #d9dde9;
               }
   
+              
+
+.menu{
+  color: #666666;
+  text-decoration: none;
+}
+.menu:hover{
+  color:rgb(132, 132, 240);
+  text-decoration: none;
+}

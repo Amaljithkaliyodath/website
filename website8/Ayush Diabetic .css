@@ -51,7 +51,7 @@ nav {
     
            .intoh{font-family: 'Oswald', sans-serif !important;
             font-weight: 200;
-            font-size: 66px;
+            font-size: 64px;
             padding: 0;
             margin-left: 10%;
             margin-top: 30%;
@@ -66,6 +66,219 @@ nav {
                 margin-left: 10%;
                 color: #666666;
             }
+
+
+
+
+.Lipid{
+  color: #666666;
+}
+
+.button4 { 
+  background-color:rgb(75, 75, 214); 
+  color: #ffffff; 
+  width: 380px;
+  height: 50px;
+
+} 
+
+.button4:hover{
+background-color: rgb(33, 202, 33);
+}
+
+.gold{
+  margin-top: 7%;
+}
+
+.Vitamin{
+  width: 70%;
+  margin-top: 10px;
+}
+.pack{
+  text-align: center;
+  font-family: 'Oswald', sans-serif !important;
+font-weight: 200;
+font-size: 47px;
+text-align: center;
+padding: 0;
+margin: 0px 0px 15px 0px;
+}
+
+
+.curated{
+  margin-top: 5%;
+}
+
+
+
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+.cardss {
+  width: 160%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-left: 9%;
+  margin-bottom: 5%;
+  -webkit-justify-content: center;
+  max-width: 1600px;
+-webkit-align-items: center;
+align-items: center;
+
+  
+}
+
+.cardes--1 .cardes__img, .cardes--1 .cardes__img--hover {
+    background-image: url('img/executive-package.jpg');
+}
+
+.cardes--2 .cardes__img, .cardes--2 .cardes__img--hover {
+    background-image: url('img/package2.jpg');
+}
+
+.cardes--3 .cardes__img, .cardes--3 .cardes__img--hover {
+    background-image: url('img/package3.jpg');
+}
+
+.cardes--4 .cardes__img, .cardes--4 .cardes__img--hover {
+    background-image: url('img/package4.jpg');
+}
+.cardes--5 .cardes__img, .cardes--5 .cardes__img--hover {
+    background-image: url('img/package5.jpg');
+}
+
+.cardes__clock {
+    width: 29px;
+  vertical-align: middle;
+    fill: #AD7D52;
+}
+
+.cardes__clock-info {
+    float: right;
+}
+
+.cardes__img {
+  visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+  
+}
+
+.cardes__info-hover {
+    position: absolute;
+    padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.cardes__img--hover {
+  transition: 0.2s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 235px;
+  border-top-left-radius: 12px;
+border-top-right-radius: 12px;
+top: 0;
+  
+}
+.cardes {
+  margin-right: 25px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #b9a7a7;
+    width: 39.3%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.cardes:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
+}
+
+.cardes__info {
+z-index: 2;
+  background-color:gray;
+  border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px;
+   padding: 16px 24px 24px 24px;
+}
+
+.cardes__category {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  color: #868686;
+}
+
+.cardes__title {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+
+
+
+.cardes:hover .cardes__img--hover {
+    height: 100%;
+    opacity: 0.3;
+}
+
+.cardes:hover .cardes__info {
+    background-color: gray;
+    position: relative;
+}
+
+.cardes:hover .cardes__info-hover {
+    opacity: 1;
+}
+
+.button4 { 
+    background-color:rgb(91, 91, 201); 
+    color: #ffffff; 
+    border-radius: 15px; 
+    width: 140px;
+    height: 40px;
+
+} 
+
+
+
+
+
+.ourtest{
+  background:#e4e8f3;
+
+}
+.our{
+  margin-top: 4%;
+  font-family: 'Oswald', sans-serif !important;
+font-weight: 200;
+font-size: 41px;
+text-align: center;
+padding: 0;
+
+}
 
 
 
@@ -221,12 +434,14 @@ nav {
   .rigths{
     background: #d9dde9;
   }
- 
-.menu{
-  color: #666666;
-  text-decoration: none;
-}
-.menu:hover{
-  color:rgb(132, 132, 240);
-  text-decoration: none;
-}
+  
+  .menu{
+    color: #666666;
+    text-decoration: none;
+  }
+  .menu:hover{
+    color:rgb(132, 132, 240);
+    text-decoration: none;
+  }
+
+
