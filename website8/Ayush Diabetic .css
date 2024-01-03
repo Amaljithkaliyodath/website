@@ -68,23 +68,25 @@ nav {
             }
 
 
+            .button6 { 
+              background-color:rgb(75, 75, 214); 
+              color: #ffffff; 
+              width: 380px;
+              height: 50px;
+            
+            } 
+            
+            .button6:hover{
+            background-color: rgb(33, 202, 33);
+            }
+
 
 
 .Lipid{
   color: #666666;
 }
 
-.button4 { 
-  background-color:rgb(75, 75, 214); 
-  color: #ffffff; 
-  width: 380px;
-  height: 50px;
 
-} 
-
-.button4:hover{
-background-color: rgb(33, 202, 33);
-}
 
 .gold{
   margin-top: 7%;

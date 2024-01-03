@@ -5,136 +5,147 @@
     <link rel="stylesheet" href="../boot/bootstrap.min.css">
 <style>
 
+/* Reset */
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.img-slider {
+/* Base */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > * {
+    flex: 1 1 200px;
+    padding: 10px;
+}
+
+/* Nav */
+nav ul {
+    list-style: none;
+    padding: 20px 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu {
+    color: #666666;
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: rgb(132, 132, 240);
+    text-decoration: none;
+}
+
+/* Social Buttons */
+.rounded-social-buttons {
+    text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+    display: inline-block;
     position: relative;
-    width: 100vw;
-    height: 400px;
-}
-.img-slider  .slider-container {
-    position: absolute;
-    width: 300%;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    animation: slider 26s infinite;
-}
-.img-slider   .slider-container .slide {
-    position: relative;
-    width: 33.33333333%;
-    height: 100%;
-    float: left;
-    overflow: hidden
-}
-.img-slider  .slider-container .slide img {
-  display: block;
-  width: 100%;
-  height: 100%
-}
-@keyframes slider {
-    0%, 25%, 100%{left: 0}
-    
-    30%, 55%{left: -100%}
-    
-    60%, 85%{left: -200%}
+    cursor: pointer;
+    width: 2.125rem;
+    height: 2.125rem;
+    border: 0.125rem solid transparent;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 1.5625rem;
+    font-weight: normal;
+    line-height: 0em;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
- 
-.button2 { 
-    background-color:rgb(78, 78, 197); 
-    color: #ffffff; 
-    border-radius: 15px; 
-    width: 140px;
-    height: 40px;
-
-} 
-
-.button2:hover{
-	background-color: rgb(33, 202, 33);
+.rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
 }
 
-.introimg{
-	width:100vh;
- height: 50%;
-}
-.intro{
-margin-top: 25%;
-margin-left: 10%;
 
-   } 
-
-   .intoh{font-family: 'Oswald', sans-serif !important;
-	font-weight: 500;
-	font-size: 56px;
-	padding: 0;
-	margin: 0px 0px 25px 0px;}
 
 
 </style>
 </head>
 <body>
 
- 
 
 
-  <Section class="img-slider blood">
-    <div class="slider-container">
-      
-      <div class="slide">
-        <div class="container-fluid">
-          <div class="row">
-        
-            <div class="col-lg intro">
-              <h1 class="intoh">Unlocking Vital
-                <br> Insights: Your Blood, Your Lab</h1>
-        
-                <p>
-                  Unlocking Vital Insights: Where Your Blood Holds the Key to Your <br>Health - Welcome to Your Trusted Laboratory</p>
-        
-                  <a href="Contact Us.html"><button class="pure-button button2 " >Learn More</button> </a>
-            </div>
-        
-            <div class="col-lg introimg">
-              <img src="img/medium-shot-scientist-working-with-microscope.jpg" alt="">
-            </div>
-        
-          </div>
-        </div>
-      </div>
+      <nav>
+
+          <ul>
+
+              <li><a href="#" class="menu">Home</a></li>
+
+              <li><a href="#" class="menu">About</a></li>
+
+              <li><a href="#" class="menu">Services</a></li>
+
+              <li><a href="#" class="menu">Contact</a></li>
+
+          </ul>
+
+      </nav>
 
 
-      
-      <div class="slide">
-        <div class="container-fluid">
-          <div class="row">
-        
-            <div class="col-lg intro">
-              <h1 class="intoh">Unlocking Vital
-                <br> Insights: Your Blood, Your Lab</h1>
-        
-                <p>
-                  Unlocking Vital Insights: Where Your Blood Holds the Key to Your <br>Health - Welcome to Your Trusted Laboratory</p>
-        
-                  <a href="Contact Us.html"><button class="pure-button button2 " >Learn More</button> </a>
-            </div>
-        
-            <div class="col-lg introimg">
-              <img src="img/img/molecular-biology.png" alt="">
-            </div>
-        
-          </div>
-        </div>
-      </div>
-  
-     
-      
-    </div>
-  </Section>
+
+
+
+      <section class="rounded-social-buttons">
+
+          <a href="#" class="social-button facebook">
+
+              <i class="fab fa-facebook-f"></i>
+
+          </a>
+
+          <a href="#" class="social-button twitter">
+
+              <i class="fab fa-twitter"></i>
+
+          </a>
+
+          <a href="#" class="social-button linkedin">
+
+              <i class="fab fa-linkedin"></i>
+
+          </a>
+
+          <a href="#" class="social-button youtube">
+
+              <i class="fab fa-youtube"></i>
+
+          </a>
+
+          <a href="#" class="social-button instagram">
+
+              <i class="fab fa-instagram"></i>
+
+          </a>
+
+      </section>
+
+
+
 
 
 
