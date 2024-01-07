@@ -67,28 +67,6 @@ html, body {
                   color: #666666;
               }
   
-  
-  
-  
-  
-  
-              
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
               
             
          
@@ -172,12 +150,14 @@ html, body {
             }
             
     .packfor{
-      margin-left: 45%;
-      margin-top: 6%;
+      margin-left: 20%;
+      margin-top: 10%;
       border-radius: 7%;
     }
   
-  
+    .qwert{
+      width: 20%;
+       }
   
   
   

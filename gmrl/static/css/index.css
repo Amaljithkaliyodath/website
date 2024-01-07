@@ -65,13 +65,13 @@ html, body {
 /* text */
 
  .intro{
-	margin-top: 25%;
+	margin-top: 18%;
 	margin-left: 10%;
 	
 	   } 
 
 	
-	   .introh{margin-top: 20%;
+	   .introh{margin-top: 18%;
 		margin-left: 10%;}
 	
 	   .intoh{font-family: 'Oswald', sans-serif !important;
@@ -148,7 +148,7 @@ html, body {
 
 /* container .announcments */
 	.conanno{
-		margin-top: 20%;
+		margin-top: 15%;
 	  }
 
 	  /* img */

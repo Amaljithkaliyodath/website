@@ -12,8 +12,8 @@
 <script src="{% static 'boot/bootstrap.min.js' %}"></script>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
-
-<link rel="stylesheet"   href="{% static 'css/sample.css' %}"  >
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet"   href="{% static 'css/Index.css' %}"  >
 
 </head>
 <body>
@@ -35,8 +35,8 @@
 
             <!-- Make An Appointment -->
             <div class="col-lg">
-               <a href="">
-                <button type="button" class="btn btn-success" >Make An Appointment</button>
+               <a href="{%url 'appointment' %}">
+                <button type="button" class="btn btn-success" >Make An Appointment</button></a>
               </a>
 
             </div>
@@ -49,39 +49,39 @@
                     
                                    
                       <nav class="navbar bg-light navbar-expand-lg mt-5 py-4 px-4 fixed-top">
-
-                                              <img src="{% static 'images/gmrl-logo.svg' %}" alt="" class="qwert"  >
+                                             
+                                              <img src="{% static 'images/gmrl-logo.svg' %}" alt="" width="18%"  >
                                       
                                               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                                <span class="">
+                                                <span class="navbar-toggler-icon">
                                                   <img src="{% static 'images/download copy.png' %}" alt="">
                                                 </span>
                                               </button>
-                                                       
+                                              <div class="collapse navbar-collapse" id="navbarSupportedContent">                   
                         <ul class="nav ml-auto"> 
-                          <li class="nav-item  ">
-                            
-                            <a class="nav-link  col" aria-current="page" href=""  >ABOUT US</a>
-                          </li>
-                          <li class="nav-item  ">
-                            <a class="nav-link  col"   href="">TESTS</a>
-                          </li>
                           <li class="nav-item">
-                            <a class="nav-link  col" href="" >PACKAGE</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link col"  href="">BLOG</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link col"  href="">GALLERY</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link col"  href="">BRANCHES</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link col"  href="">CONTACT US</a>
-                          </li>
+                            <a class="nav-link  col" aria-current="page"  href="{%url 'aboutus' %}" >ABOUT US</a>
+                        </li>
+                        <li class="nav-item  ">
+                          <a class="nav-link  col"   href="{%url 'test' %}">TESTS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  col" href="{%url 'package' %}" >PACKAGE</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link col"  href="{%url 'blog' %}">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link col"  href="{%url 'gallery' %}">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link col"  href="{%url 'branches' %}">BRANCHES</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link col"  href="{%url 'contactus' %}">CONTACT US</a>
+                        </li>
                         </ul>
+                                              </div>
                       </nav>
                     </div>
 
@@ -106,7 +106,7 @@
                                     <p>
                                       Unlocking Vital Insights: Where Your Blood Holds the Key to Your <br>Health - Welcome to Your Trusted Laboratory</p>
                             
-                                      <a href=""><button class="pure-button button2 " >Learn More</button> </a>
+                                      <a href="{%url 'contactus' %}"><button class="pure-button button2 " >Learn More</button> </a>
                                 </div>
                             
                                 <div class="col-lg introimg">
@@ -133,7 +133,7 @@
                                       where precision meets compassion for your well-being.
                                       Learn More</p>
                             
-                                      <a href=""><button class="pure-button button2 " >Learn More</button> </a>
+                                      <a href="{%url 'contactus' %}"><button class="pure-button button2 " >Learn More</button> </a>
                                 </div>
                             
                                 <div class="col-lg introimg">
@@ -192,7 +192,7 @@
       <p>Our dedicated professionals are here to guide you through every step of your health assessment, with a mission to provide the highest standard of care and convenience. At GMRL Laboratories, your well-being is our priority, and we're honored to be your trusted partner on your journey to a healthier, happier life.</p>
       
       
-<a href="about.html">
+<a href="{%url 'aboutus' %}">
   <button class="pure-button button3">Learn More</button> </a>
       </div>
 
@@ -207,22 +207,22 @@
 
     <div class="row mt-5 ">
     
-    <div class="col-lg visittp mt-5 mb-5 p-4"><a href="appointment.html"><img class="ms-4 p-4 pngwing" src="{% static 'images/schedule.png' %}" alt=""></a>
+    <div class="col-lg visittp mt-5 mb-5 p-4"><a href="{%url 'appointment' %}"><img class="ms-4 p-4 pngwing" src="{% static 'images/schedule.png' %}" alt=""></a>
      <center> <h5 class="co">book appointment</h5></center>
     </div>
     
-    <div class="col-lg visit mt-5 mb-5 p-4"><a href="package.html"><img class="ms-4 p-4 pngwing" src="{% static 'images/package.png' %}" alt=""></a>
+    <div class="col-lg visit mt-5 mb-5 p-4"><a href="{%url 'package' %}"><img class="ms-4 p-4 pngwing" src="{% static 'images/package.png' %}" alt=""></a>
       <center><h5>health packages</h5></center>
     </div>
-     <div class="col-lg visit mt-5 mb-5 p-4 "><a href="appointment.html"><img class="ms-4 p-4 pngwing" src="{% static 'images/geriatrics.png' %}" alt=""></a>
+     <div class="col-lg visit mt-5 mb-5 p-4 "><a href="{%url 'appointment' %}"><img class="ms-4 p-4 pngwing" src="{% static 'images/geriatrics.png' %}" alt=""></a>
     <center>  <h5>home visit</h5></center>
     </div> 
     
-    <div class="col-lg visit mt-5 mb-5 p-4"><a href="Contact Us.html"><img class="ms-4 p-4 pngwing" src="{% static 'images/travel-map.png' %}"></a>
+    <div class="col-lg visit mt-5 mb-5 p-4"><a href="{%url 'contactus' %}"><img class="ms-4 p-4 pngwing" src="{% static 'images/travel-map.png' %}"></a>
     <center>  <h5>reach us</h5></center>
     </div>
     
-     <div class="col-lg-3 visittp mt-5 mb-5 p-4"><a href="package.html"><img class="ms-5 p-4 pngwing" src="{% static 'images/microscope.png' %} "alt=""></a>
+     <div class="col-lg-3 visittp mt-5 mb-5 p-4"><a href="{%url 'package' %}"><img class="ms-5 p-4 pngwing" src="{% static 'images/microscope.png' %} "alt=""></a>
      <center> <h5>available test</h5></center>
     </div>
     
@@ -647,16 +647,19 @@
         <li class="cutt mt-2">Competitive and accessible pricing to promote your health</li>
         <li class="cutt mt-2">Convenient, patient-centric services for your well-being</li>
         </ul>
+        
         <button class="pure-button button3 mt-3">Learn More</button> 
     </div>
 
 
     <div class="col-lg-6">
       <div class="form-container">
+        <form action="" method="POST">
+          {% csrf_token %}
         <h1 class="enqu">Enquiry</h1>
         <h4 class="inqu">For any inquiries, please feel free <br>to
           reach out to us.</h4>
-        <form action="/submit-form" method="post">
+        
             <label for="name">Your Name</label>
             <input type="text" id="name" name="name" required>
 
@@ -696,8 +699,8 @@
           <p>Call +91 81388 62626 or click Book Now to secure your appointment.
           </p>
         </div>
-        <div class="col-lg mt-3">
-          <button type="submit" class="button7">Book Now</button>
+        <div class="col-lg mt-3"><a href="{%url 'appointment' %}">
+          <button type="submit" class="button7">Book Now</button></a>
         </div>
         <div class="col-lg mt-3">
           <img src="{% static 'images/openinh-hours-logo.png' %}"  alt="">
@@ -728,30 +731,30 @@
                                     <div class="col-lg">
                                       <h3> Quick Links</h3>
                                      <ul  class="menu">
-                                      <p><a href="site.html" aria-current="page" class="menu">Home</a></p>
-                                        <p><a href="about.html" class="menu">About Us</a></p>
-                                        <p><a href="package.html" class="menu">Packages</a></p>
-                                        <p><a href="Departments.html" class="menu">Departments</a></li>
-                                          <p><a href="gallery.html" class="menu">Gallery</a></li>
-                                            <p><a href="blog.html" class="menu">Blog</a></li>
-                                              <p><a href="Testimonials.html" class="menu">Testimonials</a></li>
-                                                <p><a href="Branches.html" class="menu">Branches</a></li>
-                                                  <p><a href="Contact Us.html" class="menu">Contact Us</a></li>
-                                                    <p><a rel="privacy-policy" href="Privacy Policy.html" class="menu">Privacy Policy</a></li>
-                                                      <p><a href="Terms & Conditions.html" class="menu">Terms &amp; Conditions</a></li>
+                                      <p><a href="{%url 'index'%}" aria-current="page" class="menu">Home</a></p>
+                                        <p><a href="{%url 'aboutus'%}" class="menu">About Us</a></p>
+                                        <p><a href="{%url 'package'%}" class="menu">Packages</a></p>
+                                        <p><a href="{%url 'department'%}" class="menu">Departments</a></li>
+                                          <p><a href="{%url 'gallery'%}" class="menu">Gallery</a></li>
+                                            <p><a href="{%url 'blog'%}" class="menu">Blog</a></li>
+                                              <p><a href="{%url 'testimoinal'%}" class="menu">Testimonials</a></li>
+                                                <p><a href="{%url 'branches'%}" class="menu">Branches</a></li>
+                                                  <p><a href="{%url 'contactus'%}" class="menu">Contact Us</a></li>
+                                                    <p><a rel="privacy-policy" href="{%url 'privacy'%}" class="menu">Privacy Policy</a></li>
+                                                      <p><a href="{%url 'terms'%}" class="menu">Terms &amp; Conditions</a></li>
                                         </ul>
                                     </div>
           
                                     <div class="col-lg">
                                       <h3>Departments</h3>
                                      <ul  class="menu">
-                                      <p><a href="Departments.html" aria-current="page" class="menu">Pathology</a></li>
-                                        <p><a href="Departments.html" class="menu">Biochemistry</a></li>
-                                          <p><a href="Departments.html" class="menu">Microbiology</a></li>
-                                            <p><a href="Departments.html" class="menu">Serology</a></li>
-                                              <p><a href="Departments.html"class="menu">Immunology</a></li>
-                                                <p><a href="Departments.html"class="menu">Radiology</a></li>
-                                                  <p><a href="Departments.html"class="menu">Molecular Biology</a></li>
+                                      <p><a href="{%url 'department'%}" aria-current="page" class="menu">Pathology</a></li>
+                                        <p><a href="{%url 'department'%}" class="menu">Biochemistry</a></li>
+                                          <p><a href="{%url 'department'%}" class="menu">Microbiology</a></li>
+                                            <p><a href="{%url 'department'%}" class="menu">Serology</a></li>
+                                              <p><a href="{%url 'department'%}"class="menu">Immunology</a></li>
+                                                <p><a href="{%url 'department'%}"class="menu">Radiology</a></li>
+                                                  <p><a href="{%url 'department'%}"class="menu">Molecular Biology</a></li>
                                         </ul>
                                     </div>
           
@@ -780,12 +783,16 @@
           
                                         </ul>
                                         <div class="rounded-social-buttons">
-                                          <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="" width="35px"> </a>
-                                          <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><img src="img/twitter.png" alt="" width="35px"> </a>
-                                          <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin.png" alt="" width="35px"> </a>
-                                          <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><img src="img/instagram.png" alt="" width="35px"></a>
-                                         
-                                      </div>
+                                           <div class="rounded-social-buttons">
+                                            <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><img src="{% static 'images/facebook.png'%}" alt="" width="35px"> </a>
+                                            <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><img src="{% static 'images/twitter.png'%}" alt="" width="35px"> </a>
+                                            <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><img src="{% static 'images/linkedin.png'%}" alt="" width="35px"> </a>
+                                            <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><img src="{% static 'images/instagram.png'%}" alt="" width="35px"></a>
+                                           
+                                        </div> 
+                                       
+                                    
+                          
                                     </div>
           
                                   </div>

@@ -108,7 +108,9 @@ html, body {
                     background-image: url('img/radiology.jpg');
                 }
                 
-               
+                .qwert{
+                  width: 20%;
+                   }
                 
                 .cardes__img {
                   visibility: hidden;

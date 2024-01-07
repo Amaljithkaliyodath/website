@@ -22,7 +22,7 @@
 
     <div class="container  ">
         <div class="row  ">
-            <div class="col-lg">
+            <div class="col-lg col-md col-xl col">
               
 <!-- social media -->
               <div class="social ">
@@ -37,8 +37,8 @@
 
               </div>
             </div>
-            <div class="col-lg">
-              <a href="appointment.html"><button type="button" class="btn btn-success" >Make An Appointment</button></a>
+            <div class="col-lg  col-md col-xl">
+              <a href="{%url 'appointment' %}"><button type="button" class="btn btn-success" >Make An Appointment</button></a>
             </div>
         </div>
       </div>
@@ -47,32 +47,40 @@
 
                     <div class="container-fluid ">        
                       <nav class="navbar bg-light navbar-expand-lg mt-5 py-4 px-4 fixed-top">
-                        <!-- <a class="navbar-brand" >Default</a> -->
-                        <img src="{% static 'images/gmrl-logo.svg' %}" alt="" width="18%">
+                        <img src="{% static 'images/gmrl-logo.svg' %}" alt="" width="19%" >
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon">
+                            <img src="{% static 'images/download copy.png' %}" alt="" >
+                          </span>
+                        </button>
+                        <div class="collapse navbar-collapse " id="navbarSupportedContent">                   
+
                         <ul class="nav ml-auto"> 
                           <li class="nav-item">
-                            <a class="nav-link  col" aria-current="page"  href="about.html" >ABOUT US</a>
-                          </li>
-                          <li class="nav-item  ">
-                            <a class="nav-link  col"   href="test.html">TESTS</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link  col" href="package.html" >PACKAGE</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link col"  href="blog.html">BLOG</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link col"  href="gallery.html">GALLERY</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link col"  href="Branches.html">BRANCHES</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link col"  href="Contact Us.html">CONTACT US</a>
-                          </li>
+                            <a class="nav-link  col" aria-current="page"  href="{%url 'aboutus' %}" >ABOUT US</a>
+                        </li>
+                        <li class="nav-item  ">
+                          <a class="nav-link  col"   href="{%url 'test' %}">TESTS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link  col" href="{%url 'package' %}" >PACKAGE</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link col"  href="{%url 'blog' %}">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link col"  href="{%url 'gallery' %}">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link col"  href="{%url 'branches' %}">BRANCHES</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link col"  href="{%url 'contactus' %}">CONTACT US</a>
+                        </li>
                         </ul>
+                      </div>
                       </nav>
+                  
                     </div>
 
 
@@ -120,135 +128,137 @@
 
 
 
-<div class="container-fluid foot">
 
-  <div class="row">
+                      <div class="container-fluid foot">
 
-    <div class="col-lg">
-     <div class="container green">
-       <div class="row ">
-        <div class="col-lg mt-3">
-          <img src="{% static 'images/schedule.png' %}" alt="">
-        </div>
-        <div class="col-lg-4 mt-3">
-          <h3>Make an Appointment</h3>
-          <p>Call +91 81388 62626 or click Book Now to secure your appointment.
-          </p>
-        </div>
-        <div class="col-lg mt-3">
-          <button type="submit" class="button7">Book Now</button>
-        </div>
-        <div class="col-lg mt-3">
-          <img src="{% static 'images/openinh-hours-logo.png' %}" alt="">
-        </div>
-        <div class="col-lg-4 mt-3">
-          <h2>Opening Hours</h2>
-          <p>Mon - Sun : 5:00AM to 10:00PM</p>
-        </div>
-       </div>
-      </div>
-    </div>
-  </div>
-
-<!-- 
-                            footer -->
-
-               
-                  <div class="row mt-5">
-                    <div class="col-lg">
-                      <div class="container">
                         <div class="row">
-                          <div class="col-lg mrllogo">
-                            <img src="{% static 'images/gmrl-logo.svg' %}" alt="">
-                          </div>
-
-                          
-        
-                                  <div class="col-lg">
-                                    <h3> Quick Links</h3>
-                                   <ul  class="menu">
-                                    <p><a href="site.html" aria-current="page" class="menu">Home</a></p>
-                                      <p><a href="about.html" class="menu">About Us</a></p>
-                                      <p><a href="package.html" class="menu">Packages</a></p>
-                                      <p><a href="Departments.html" class="menu">Departments</a></li>
-                                        <p><a href="gallery.html" class="menu">Gallery</a></li>
-                                          <p><a href="blog.html" class="menu">Blog</a></li>
-                                            <p><a href="Testimonials.html" class="menu">Testimonials</a></li>
-                                              <p><a href="Branches.html" class="menu">Branches</a></li>
-                                                <p><a href="Contact Us.html" class="menu">Contact Us</a></li>
-                                                  <p><a rel="privacy-policy" href="Privacy Policy.html" class="menu">Privacy Policy</a></li>
-                                                    <p><a href="Terms & Conditions.html" class="menu">Terms &amp; Conditions</a></li>
-                                      </ul>
-                                  </div>
-        
-                                  <div class="col-lg">
-                                    <h3>Departments</h3>
-                                   <ul  class="menu">
-                                    <p><a href="Departments.html" aria-current="page" class="menu">Pathology</a></li>
-                                      <p><a href="Departments.html" class="menu">Biochemistry</a></li>
-                                        <p><a href="Departments.html" class="menu">Microbiology</a></li>
-                                          <p><a href="Departments.html" class="menu">Serology</a></li>
-                                            <p><a href="Departments.html"class="menu">Immunology</a></li>
-                                              <p><a href="Departments.html"class="menu">Radiology</a></li>
-                                                <p><a href="Departments.html"class="menu">Molecular Biology</a></li>
-                                      </ul>
-                                  </div>
-        
-        
-                                  <div class="col-lg">
-                                    <h3>Our Packages</h3>
-                                   <ul  class="menu">
-                                    <p><a href="Executive Package.html" aria-current="page" class="menu">Executive Package</a></li>
-                                      <p><a href="Ayush General.html" class="menu">Ayush General</a></li>
-                                        <p><a href="Ayush Silver Plan.html" class="menu">Ayush Silver Plan</a></li>
-                                          <p><a href="Ayush Diabetic .html" class="menu">Ayush Diabetic & Kidney Care</a></li>
-                                            <p><a href="Ayush Gold.html"class="menu">Ayush Gold</a></li>
-        
-                                      </ul>
-                                  </div>
-        
-        
-                                  <div class="col-lg">
-                                    <h3>Get In Touch</h3>
-                                   <ul  class="menu">
-                                   <p> <a href="" aria-current="page" class="menu">GMRL Laboratories Chambakkara, </a></p>
-                                      <a href="" class="menu">Ernakulam - 682011</a></li>
-                                      <p><a href=""class="menu">+91 81388 62626</a></p>
-                                      <p><a href="" class="menu">0484 0000 0000</a></p>
-                                    <p>  <a href=""class="menu">info@gmrllabs.com</a></p>
-        
-                                      </ul>
-                                      <div class="rounded-social-buttons">
-                                        <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><img src="img/facebook.png" alt="" width="35px"> </a>
-                                        <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><img src="img/twitter.png" alt="" width="35px"> </a>
-                                        <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><img src="img/linkedin.png" alt="" width="35px"> </a>
-                                        <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><img src="img/instagram.png" alt="" width="35px"></a>
-                                       
-                                    </div>
-                                  </div>
-        
-                                </div>
+                      
+                          <div class="col-lg">
+                           <div class="container green">
+                             <div class="row ">
+                              <div class="col-lg mt-3">
+                                <img src="{% static 'images/schedule.png' %}" alt="">
                               </div>
+                              <div class="col-lg-4 mt-3">
+                                <h3>Make an Appointment</h3>
+                                <p>Call +91 81388 62626 or click Book Now to secure your appointment.
+                                </p>
+                              </div>
+                              <div class="col-lg mt-3"><a href="{%url 'appointment' %}">
+                                <button type="submit" class="button7">Book Now</button></a>
+                              </div>
+                              <div class="col-lg mt-3">
+                                <img src="{% static 'images/openinh-hours-logo.png' %}"  alt="">
+                              </div>
+                              <div class="col-lg-4 mt-3">
+                                <h2>Opening Hours</h2>
+                                <p>Mon - Sun : 5:00AM to 10:00PM</p>
+                              </div>
+                             </div>
                             </div>
+                          </div>
                         </div>
-        </div>
-        
-
-
-<div class="container-fluid rigths">
-  <div class="row  ">
-    <div class="col-lg mt-3">
-      © 2023 GMRL Labs. All Right Reserved.
-    </div>
-    <div class="col-lg mt-3">
-      Crafted by amaljithkaliyodath 
-    </div>
-  </div>
-</div>
-
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> 
-    </body>
-    </html>
+                      
+                      
+                        
+                      <!-- 
+                                                  footer -->
+                      
+                                     
+                                                  <div class="row mt-5">
+                                                    <div class="col-lg">
+                                                      <div class="container">
+                                                        <div class="row">
+                                                          <div class="col-lg mrllogo">
+                                                            <img src="{% static 'images/gmrl-logo.svg' %}" alt="">
+                                                          </div>
+                                
+                                                          <div class="col-lg">
+                                                            <h3> Quick Links</h3>
+                                                           <ul  class="menu">
+                                                            <p><a href="{%url 'index'%}" aria-current="page" class="menu">Home</a></p>
+                                                              <p><a href="{%url 'aboutus'%}" class="menu">About Us</a></p>
+                                                              <p><a href="{%url 'package'%}" class="menu">Packages</a></p>
+                                                              <p><a href="{%url 'department'%}" class="menu">Departments</a></li>
+                                                                <p><a href="{%url 'gallery'%}" class="menu">Gallery</a></li>
+                                                                  <p><a href="{%url 'blog'%}" class="menu">Blog</a></li>
+                                                                    <p><a href="{%url 'testimoinal'%}" class="menu">Testimonials</a></li>
+                                                                      <p><a href="{%url 'branches'%}" class="menu">Branches</a></li>
+                                                                        <p><a href="{%url 'contactus'%}" class="menu">Contact Us</a></li>
+                                                                          <p><a rel="privacy-policy" href="{%url 'privacy'%}" class="menu">Privacy Policy</a></li>
+                                                                            <p><a href="{%url 'terms'%}" class="menu">Terms &amp; Conditions</a></li>
+                                                              </ul>
+                                                          </div>
+                                
+                                                          <div class="col-lg">
+                                                            <h3>Departments</h3>
+                                                           <ul  class="menu">
+                                                            <p><a href="{%url 'department'%}" aria-current="page" class="menu">Pathology</a></li>
+                                                              <p><a href="{%url 'department'%}" class="menu">Biochemistry</a></li>
+                                                                <p><a href="{%url 'department'%}" class="menu">Microbiology</a></li>
+                                                                  <p><a href="{%url 'department'%}" class="menu">Serology</a></li>
+                                                                    <p><a href="{%url 'department'%}"class="menu">Immunology</a></li>
+                                                                      <p><a href="{%url 'department'%}"class="menu">Radiology</a></li>
+                                                                        <p><a href="{%url 'department'%}"class="menu">Molecular Biology</a></li>
+                                                              </ul>
+                                                          </div>
+                                
+                                
+                                                          <div class="col-lg">
+                                                            <h3>Our Packages</h3>
+                                                           <ul  class="menu">
+                                                            <p><a href="Executive Package.html" aria-current="page" class="menu">Executive Package</a></li>
+                                                              <p><a href="Ayush General.html" class="menu">Ayush General</a></li>
+                                                                <p><a href="Ayush Silver Plan.html" class="menu">Ayush Silver Plan</a></li>
+                                                                  <p><a href="Ayush Diabetic .html" class="menu">Ayush Diabetic & Kidney Care</a></li>
+                                                                    <p><a href="Ayush Gold.html"class="menu">Ayush Gold</a></li>
+                                
+                                                              </ul>
+                                                          </div>
+                                
+                                
+                                                          <div class="col-lg">
+                                                            <h3>Get In Touch</h3>
+                                                           <ul  class="menu">
+                                                           <p> <a href="" aria-current="page" class="menu">GMRL Laboratories Chambakkara, </a></p>
+                                                              <a href="" class="menu">Ernakulam - 682011</a></li>
+                                                              <p><a href=""class="menu">+91 81388 62626</a></p>
+                                                              <p><a href="" class="menu">0484 0000 0000</a></p>
+                                                            <p>  <a href=""class="menu">info@gmrllabs.com</a></p>
+                                
+                                                              </ul>
+                                                              <div class="rounded-social-buttons">
+                                                                 <div class="rounded-social-buttons">
+                                                                  <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><img src="{% static 'images/facebook.png'%}" alt="" width="35px"> </a>
+                                                                  <a class="social-button twitter" href="https://www.twitter.com/" target="_blank"><img src="{% static 'images/twitter.png'%}" alt="" width="35px"> </a>
+                                                                  <a class="social-button linkedin" href="https://www.linkedin.com/" target="_blank"><img src="{% static 'images/linkedin.png'%}" alt="" width="35px"> </a>
+                                                                  <a class="social-button youtube" href="https://www.youtube.com/" target="_blank"><img src="{% static 'images/instagram.png'%}" alt="" width="35px"></a>
+                                                                 
+                                                              </div> 
+                                                             
+                                                          
+                                                
+                                                          </div>
+                                
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                </div>
+                                </div>
+                                
+                                
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                          
+                          <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+                          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> 
+                          </body>
+                          </html>
+                      
+                      

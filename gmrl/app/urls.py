@@ -12,6 +12,12 @@ urlpatterns = [
     path('gallery',views.gallery,name='gallery'),
      path('branches',views.branches,name='branches'),
        path('contactus',views.contactus,name='contactus'),
+        path('appointment',views.appointment,name='appointment'),
+           path('department',views.department,name='department'),
+             path('testimoinal',views.testimoinal,name='testimoinal'),
+              path('privacy',views.privacy,name='privacy'),
+                   path('terms',views.terms,name='terms'),
+                      path('subpackage/<int:id>/',views.subpackage,name='subpackage'),
 ]
 urlpatterns += static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
 
